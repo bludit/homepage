@@ -89,8 +89,9 @@ function l($key) {
 		<div class="content">
 			<h1 class="title"><?php l('Demo') ?></h1>
 			<p><?php l('demo-description') ?></p>
-			<a class="button1" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-check"></i> <?php l('Demo') ?></a>
-			<a class="button1" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-columns"></i> <?php l('Admin panel') ?></a>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-clone"></i> Website</a>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-pencil"></i> Blog</a>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-columns"></i> Website + Blog</a>
 		</div>
 		</section>
 

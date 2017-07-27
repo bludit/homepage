@@ -1,0 +1,101 @@
+p {
+	color: #333;
+}
+
+a {
+	color:#106EA0;
+}
+
+.description1 {
+	font-size: 1.3em;
+}
+
+.description2 {
+	font-size: 1.3em;
+}
+
+section.demo-box {
+	text-align: center;
+	background: #16B4D7 !important;
+	color: #FFF !important;
+}
+
+h1.title {
+	font-size: 2em;
+	text-align: center;
+	color: #FFF;
+}
+
+a.button1 {
+	border: 2px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	font-weight: normal;
+	padding: 10px 60px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+a.button1:hover {
+	background: rgba(255, 255, 255, 0.26);
+}
+
+img {
+	width: 100%;
+}
+
+.what-box {
+	background: #1694D7 !important;
+	color: #fff !important;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.what-box p,
+.demo-box p {
+	text-align: center !important;
+	color: #fff;
+}
+
+.what-box h1 {
+	color: #fff !important;
+	margin-top: 30px;
+}
+
+.collaborate-box {
+
+}
+
+.collaborate-box h1 {
+	color: #333;
+}
+
+#sponsors {
+	background: #E8EEF4;
+}
+
+#sponsors h1 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#sponsors a {
+	display: block;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+#sponsors li:first-child {
+	margin-bottom: 20px;
+}
+
+div.links {
+	margin: 20px auto;
+	width: 50%;
+}
+
+
+
+div.links-description {
+
+}

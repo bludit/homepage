@@ -5,7 +5,6 @@ include('config.php');
 define('BLUDIT', true);
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
-define('DOMAIN', 'http://bludithomepage.com');
 date_default_timezone_set('UTC');
 
 if (isset($_GET['l'])) {

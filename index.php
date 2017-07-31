@@ -8,8 +8,8 @@ define('PATH_ROOT', __DIR__.DS);
 define('DOMAIN', 'http://bludithomepage.com');
 date_default_timezone_set('UTC');
 
-if(isset($_GET['l'])) {
-	if(in_array($_GET['l'], $acceptedLanguages)) {
+if (isset($_GET['l'])) {
+	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$defaultLanguage = $_GET['l'];
 	}
 }
@@ -21,15 +21,17 @@ function l($key) {
 	global $languageArray;
 	$key = mb_strtolower($key, 'UTF-8');
 	$key = str_replace(' ','-',$key);
-	echo $languageArray[$key];
+	if (isset($languageArray[$key])) {
+		echo $languageArray[$key];
+	}
 }
 ?>
 <html>
 <head>
-	<title><?php l('headTitle') ?></title>
+	<title><?php l('head title') ?></title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="<?php l('headDescription') ?>">
+	<meta name="description" content="<?php l('head description') ?>">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--[if lte IE 8]><script src="<?php echo DOMAIN ?>/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -53,7 +55,7 @@ function l($key) {
 			<li><a href="https://docs.bludit.com"><?php l('Documentation') ?></a></li>
 			<li><a href="https://themes.bludit.com"><?php l('Themes') ?></a></li>
 			<li><a href="https://plugins.bludit.com"><?php l('Plugins') ?></a></li>
-			<li><a href="https://pro.bludit.com">Bludit PRO</a></li>
+			<!-- <li><a href="https://pro.bludit.com">Bludit PRO</a></li> -->
 		</ul>
 		</nav>
 	</header>
@@ -74,7 +76,7 @@ function l($key) {
 				<h1 class="title"><?php l('Download') ?></h1>
 				<p><?php l('download-box-description') ?></p>
 				<a class="button1" href="<?php echo $downloadLink ?>"><i class="icon fa-download"></i> BLUDIT <?php echo $bluditVersion ?></a>
-				<a class="button1" href=""><i class="icon fa-heart"></i> PRO</a>
+				<a class="button1" href="https://paypal.me/bludit/10"><i class="icon fa-heart"></i> Donate</a>
 			</div>
 
 			<div class="6u 12u(narrower) important(narrower)">
@@ -89,9 +91,15 @@ function l($key) {
 		<div class="content">
 			<h1 class="title"><?php l('Demo') ?></h1>
 			<p><?php l('demo-description') ?></p>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com"><i class="icon fa-clone"></i> Home</a>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-pencil"></i> Admin panel</a>
+
+			<!--
+			<p><?php l('demo-description') ?></p>
 			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-clone"></i> Website</a>
 			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-pencil"></i> Blog</a>
 			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-columns"></i> Website + Blog</a>
+			-->
 		</div>
 		</section>
 

@@ -1,29 +1,39 @@
 p {
-	color: #333;
+	color: #222;
 }
 
 a {
-	color:#106EA0;
+	color:#1571D3;
 }
 
-.description1 {
+.little-description {
 	font-size: 1.3em;
 }
 
-.description2 {
-	font-size: 1.3em;
+#download,
+#demo {
+	border-radius: 4px;
+	text-align: center;
 }
 
-section.demo-box {
-	text-align: center;
-	background: #12B36B !important;
-	color: #FFF !important;
+#download {
+	background: #1571D3;
 }
 
-h1.title {
-	font-size: 2em;
-	text-align: center;
-	color: #FFF;
+#demo {
+	background: #12B36B;
+}
+
+#donations {
+	background: #234BD7;
+	text-align: left;
+	border-radius: 4px;
+}
+
+#download p,
+#demo p,
+#donations p {
+	color: #fff;
 }
 
 a.button1 {
@@ -44,34 +54,9 @@ a.button1:hover {
 	padding: 5px 30px !important;
 }
 
-img {
-	width: 100%;
-}
-
-.what-box {
-	background: #1571D3 !important;
-	color: #fff !important;
-	border-radius: 4px;
-	text-align: center;
-}
-
-.what-box p,
-.demo-box p {
-	text-align: center !important;
-	color: #fff;
-}
-
-.what-box h1 {
-	color: #fff !important;
-	margin-top: 30px;
-}
-
-.collaborate-box h1 {
-	color: #333;
-}
-
-#sponsors {
-	background: #E8EEF4;
+h1.title {
+	font-size: 2em;
+	color: #FFF;
 }
 
 #sponsors h1 {
@@ -89,22 +74,7 @@ img {
 	margin-bottom: 20px;
 }
 
-div.links {
+#sponsors div.links {
 	margin: 20px auto;
 	width: 50%;
-}
-
-#donations {
-	background: #234BD7;
-	color: #fff;
-	border-radius: 4px;
-	text-align: left;
-}
-
-#donations h1.title {
-	text-align: left;
-}
-
-#donations p {
-	color: #fff;
 }

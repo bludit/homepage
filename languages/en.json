@@ -1,6 +1,6 @@
 {
 	"head-title": "Bludit",
-	"head-description": "Bludit is a simple web application to make your own site or blog in seconds, it's completly free and open source. Bludit uses flat-files to store the posts and pages, you don't need to install or configure a database.",
+	"head-description": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.",
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -12,18 +12,25 @@
 	"support": "Support",
 	"chat": "Chat",
 	"forum": "Forum",
+	"sponsors": "Sponsors",
 	"admin-panel": "Admin panel",
+
+	"bludit-little-description-paragraph1": "Create your own <b>Web Site</b> or <b>Blog</b> in seconds",
+	"bludit-little-description-paragraph2": "Simple, Fast and Flexible CMS",
+
+	"download-paragraph1": "Download the latest stable version.",
+
 	"what-is-bludit": "What is Bludit ?",
+	"what-is-paragraph1": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.",
+
+	"demo-paragraph1": "Try and feel the power of Bludit before install it.<br><b>Username:</b> admin <b>Password:</b> demo123",
+
 	"themes-and-plugins": "Themes & Plugins",
-	"bludit-what-is-description": "Bludit is a web application to build your own site or blog in seconds, it's completely free and open source. Bludit uses flat-files (text files in JSON format) to store the content, you don't need to install or configure a database. You only need a web server with PHP support.",
-	"bludit-description1": "Create your own <b>site</b> or <b>blog</b> in seconds",
-	"bludit-description2": "Simple, Fast and flat-file CMS",
-	"download-box-description": "Download the latest stable version.",
-	"demo-description": "Try and feel the power of Bludit before install it.<br><b>Username:</b> admin - <b>Password:</b> demo123",
+
 	"documentation-description": "Get information about Bludit, installation guide, requirements, upgrade guide, how to create content, how to insert an image, and more. Developers are welcome!",
-	"themes-and-plugins-description": "Many users make themes and plugins for Bludit, take a look at them. There are two repositories on Github and there's a category on the forum for it.",
+	"themes-and-plugins-description": "Many users develop themes and extensions for Bludit. If you are a developer or you like to design themes you can enter the forum and publish your work.",
 	"support-description": "Bludit has its own forum and a chat with many hackers who can help you with any question or issues, or just can say hello to the comunnity.",
 	"bludit-license": "Bludit is released under the <a href=\"https://tldrlegal.com/license/mit-license\">MIT license</a>",
-	"donations-paragraph1": "If you like Bludit and is useful for you please consider making a donation. <br> I spend hours on Bludit and is not only writing code there are a lot of thing around Bludit such as Demos, Documentation, Support the user, Fix bugs, Maintenance of the infrastructure, etc.",
-	"donations-paragraph2": "I really like what I do and I want to keep up and running Bludit <i class=\"fa fa-smile-o\"></i> <br> Following there are some links for differents platform to make a donation. <br> Thank you!"
+	"donations-paragraph1": "If you like Bludit and is useful for you please consider donate. <br> I spend hours on Bludit and is not only writing code there are a lot of things around Bludit such as support the user, fixing bugs, writing documentation, maintenance of the infrastructure, etc.",
+	"donations-paragraph2": "I really enjoy what I do and I want to keep Bludit up and running <i class=\"fa fa-smile-o\"></i> <br> Following there are some links for differents platform to make a donation. <br> Thank you!"
 }

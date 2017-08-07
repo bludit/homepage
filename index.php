@@ -1,30 +1,5 @@
+<?php include('config.php') ?>
 <!DOCTYPE HTML>
-<?php
-include('config.php');
-
-define('BLUDIT', true);
-define('DS', DIRECTORY_SEPARATOR);
-define('PATH_ROOT', __DIR__.DS);
-date_default_timezone_set('UTC');
-
-if (isset($_GET['l'])) {
-	if (in_array($_GET['l'], $acceptedLanguages)) {
-		$defaultLanguage = $_GET['l'];
-	}
-}
-
-$jsonData = file_get_contents(PATH_ROOT.'languages'.DS.$defaultLanguage.'.json');
-$languageArray = json_decode($jsonData, true);
-
-function l($key) {
-	global $languageArray;
-	$key = mb_strtolower($key, 'UTF-8');
-	$key = str_replace(' ','-',$key);
-	if (isset($languageArray[$key])) {
-		echo $languageArray[$key];
-	}
-}
-?>
 <html>
 <head>
 	<title><?php l('head title') ?></title>
@@ -65,33 +40,30 @@ function l($key) {
 
 		<header class="special container">
 			<h2>BLUDIT</h2>
-			<p class="description1"><?php l('bludit-description1') ?></p>
-			<p class="description2"><?php l('bludit-description2') ?></p>
+			<p class="little-description"><?php l('bludit-little-description-paragraph1') ?></p>
+			<p class="little-description"><?php l('bludit-little-description-paragraph2') ?></p>
 		</header>
 
-		<section id="download" class="wrapper style4 container what-box">
+		<section id="download" class="wrapper style4 container">
 		<div class="row 50%">
-
 			<div class="6u 12u(narrower)">
 				<h1 class="title"><?php l('Download') ?></h1>
-				<p><?php l('download-box-description') ?></p>
-				<a class="button1" href="<?php echo $downloadLink ?>"><i class="icon fa-download"></i> BLUDIT <?php echo $bluditVersion ?></a>
+				<p><?php l('download-paragraph1') ?></p>
+				<a class="button1" href="<?php echo $version['stable']['downloadLink'] ?>"><i class="icon fa-download"></i> BLUDIT <?php echo $version['stable']['version'] ?></a>
 			</div>
-
 			<div class="6u 12u(narrower) important(narrower)">
 				<h1 class="title"><?php l('What is Bludit') ?></h1>
-				<p><?php l('bludit-what-is-description') ?></p>
+				<p><?php l('what-is-paragraph1') ?></p>
 			</div>
-
 		</div>
 		</section>
 
-		<section id="demo" class="wrapper style3 container demo-box">
+		<section id="demo" class="wrapper style3 container">
 		<div class="content">
 			<h1 class="title"><?php l('Demo') ?></h1>
-			<p><?php l('demo-description') ?></p>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com"><i class="icon fa-clone"></i> Home</a>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-pencil"></i> Admin panel</a>
+			<p><?php l('demo-paragraph1') ?></p>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com"><i class="icon fa-clone"></i> <?php l('Demo') ?></a>
+			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-pencil"></i> <?php l('Admin panel') ?></a>
 
 			<!--
 			<p><?php l('demo-description') ?></p>
@@ -175,7 +147,7 @@ function l($key) {
 			</div>
 
 			<div class="6u 12u(narrower) important(narrower)">
-				<h1>Sponsors</h1>
+				<h1><?php l('Sponsors') ?></h1>
 				<p style="text-align:center">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<ins class="adsbygoogle"
@@ -229,14 +201,13 @@ function l($key) {
 
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-67610404-1', 'auto');
-  ga('send', 'pageview');
-
+	ga('create', 'UA-67610404-1', 'auto');
+	ga('send', 'pageview');
 </script>
 
 </body>

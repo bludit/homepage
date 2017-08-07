@@ -1,25 +1,36 @@
 {
-	"headTitle": "Bludit",
-	"headDescription": "Bludit es una aplicación web para crear tu sitio o blog en segundos, es completamente gratis y de código libre.",
+	"head-title": "Bludit",
+	"head-description": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza archivos JSON para almacenar el contenido, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
 	"download": "Descarga",
 	"demo": "Demo",
+	"links": "Enlaces",
 	"documentation": "Documentación",
 	"themes": "Temas",
 	"plugins": "Extensiones",
 	"donate": "Donar",
+	"donations": "Donaciones",
 	"support": "Soporte",
 	"chat": "Chat",
 	"forum": "Foro",
-	"admin-panel": "Panel administración",
-	"what-is-bludit": "Que es Bludit ?",
-	"themes-and-plugins": "Temas & Extensiones",
-	"bludit-what-is-description": "Bludit es una aplicación web para crear tu sitio o blog en segundos, es completamente gratis y de código libre. Bludit utiliza archivos planos para almacenar sus entradas y paginas, no es necesario instalar o configurar ningún tipo de base de datos. Solo necesita un servidor web con soporte de PHP.",
-	"bludit-description1": "Crea tu propio <b>sitio</b> o <b>blog</b> en segundos",
-	"bludit-description2": "Rápido, simple, extensible y de archivos planos",
-	"download-box-description": "Descargue la ultima versión.<br>Si te gusta Bludit considere hacer una donación.",
-	"demo-description": "Pruebe el poder de Bludit antes de instalarlo.<br>La demo se re-genera automáticamente cada 1 hora.<br><b>Usuario:</b> admin - <b>Constraseña:</b> demo123",
-	"documentation-description": "Obtenga información sobre Bludit, guía de instalación, como crear una entrada o una pagina, como insertar una imagen y mas. Los desarrolladores son bienvenidos!",
-	"themes-and-plugins-description": "Muchos usuarios desarrollan temas y extensiones para Bludit, en este momento hay dos repositorios en Github y una categoría en el foro dedicado a ellos.",
-	"support-description": "Bludit cuenta con su propio chat y foro, con muchos Hackers y usuarios que lo pueden ayudar con sus consultas, temas, extensiones, ideas, y nuevas caracteristicas.",
-	"bludit-license": "Bludit es desarrollado bajo <a href=\"https://tldrlegal.com/license/mit-license\">licencia MIT</a>"
+	"sponsors": "Patrocinadores",
+	"admin-panel": "Panel de administración",
+
+	"bludit-little-description-paragraph1": "Crea tu propio <b>Sitio Web</b> o <b>Blog</b> en segundos",
+	"bludit-little-description-paragraph2": "Simple, rápido y flexible CMS",
+
+	"download-paragraph1": "Descarga la ultima versión.",
+
+	"what-is-bludit": "Qué es Bludit ?",
+	"what-is-paragraph1": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza archivos JSON para almacenar el contenido, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
+
+	"demo-paragraph1": "Pruebe y sienta el poder de Bludit antes de instalarlo. <br> <b>Nombre de usuario:</b> admin <b>Contraseña:</b> demo123",
+
+	"themes-and-plugins": "Temas y Extensiones",
+
+	"documentation-description": "Obtenga información acerca de Bludit, guía de instalación, requisitos, guía de actualización, cómo crear contenido, cómo insertar una imagen y más. ¡Desarrolladores bienvenidos!",
+	"themes-and-plugins-description": "Muchos usuarios desarrollan temas y extensiones para Bludit. Si sos desarrollador o te gusta diseñar temas puedes ingresar al foro y publicar tus trabajos.",
+	"support-description": "Bludit tiene su propio chat y foro con muchos hackers que pueden ayudar con cualquier pregunta o problemas, o simplemente puede pasar a decir Hola! a la comunidad.",
+	"bludit-license": "Bludit esta bajo la <a href=\"https://tldrlegal.com/license/mit-license\">licencia MIT</a>",
+	"donations-paragraph1": "Si te gusta Bludit y te es útil por favor considere hacer una donación. <br> Dedico muchas horas en Bludit y no sólo escribiendo código, hay un montón de cosas en torno a Bludit, como el soporte a los usuario, correcion de errores, documentación, mantenimiento de la infraestructura, etc.",
+	"donations-paragraph2": "Realmente disfruto lo que hago y quiero mantener y seguir con mi trabajo con Bludit <i class=\"fa fa-smile-o\"></i> <br> Por el momento tenemos dos formas para hacer una donación. <br> Gracias!"
 }

@@ -54,6 +54,7 @@ function l($key) {
 			<li><a href="https://docs.bludit.com"><?php l('Documentation') ?></a></li>
 			<li><a href="https://themes.bludit.com"><?php l('Themes') ?></a></li>
 			<li><a href="https://plugins.bludit.com"><?php l('Plugins') ?></a></li>
+			<li><a href="#donations"><?php l('Donations') ?></a></li>
 			<!-- <li><a href="https://pro.bludit.com">Bludit PRO</a></li> -->
 		</ul>
 		</nav>
@@ -75,7 +76,6 @@ function l($key) {
 				<h1 class="title"><?php l('Download') ?></h1>
 				<p><?php l('download-box-description') ?></p>
 				<a class="button1" href="<?php echo $downloadLink ?>"><i class="icon fa-download"></i> BLUDIT <?php echo $bluditVersion ?></a>
-				<a class="button1" href="https://paypal.me/bludit/10"><i class="icon fa-heart"></i> Donate</a>
 			</div>
 
 			<div class="6u 12u(narrower) important(narrower)">
@@ -192,6 +192,16 @@ function l($key) {
 				</p>
 			</div>
 
+		</div>
+		</section>
+
+		<section id="donations" class="wrapper style3 container">
+		<div class="content">
+			<h1 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i> Donations</h1>
+			<p><?php l("donations-paragraph1") ?></p>
+			<p><?php l("donations-paragraph2") ?></p>
+			<a class="button1 small-button" target="_blank" href="https://paypal.me/bludit/10"><i class="icon fa-paypal"></i> Paypal</a>
+			<a class="button1 small-button" target="_blank" href="https://btc.com/3Dm3pNssSs2gLT1DvDoWznXJj829CEyfej"><i class="icon fa-btc"></i> Bitcoins</a>
 		</div>
 		</section>
 

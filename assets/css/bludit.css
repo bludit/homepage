@@ -16,7 +16,7 @@ a {
 
 section.demo-box {
 	text-align: center;
-	background: #16B4D7 !important;
+	background: #12B36B !important;
 	color: #FFF !important;
 }
 
@@ -49,7 +49,7 @@ img {
 }
 
 .what-box {
-	background: #1694D7 !important;
+	background: #1571D3 !important;
 	color: #fff !important;
 	border-radius: 4px;
 	text-align: center;
@@ -64,10 +64,6 @@ img {
 .what-box h1 {
 	color: #fff !important;
 	margin-top: 30px;
-}
-
-.collaborate-box {
-
 }
 
 .collaborate-box h1 {
@@ -98,8 +94,17 @@ div.links {
 	width: 50%;
 }
 
+#donations {
+	background: #234BD7;
+	color: #fff;
+	border-radius: 4px;
+	text-align: left;
+}
 
+#donations h1.title {
+	text-align: left;
+}
 
-div.links-description {
-
+#donations p {
+	color: #fff;
 }

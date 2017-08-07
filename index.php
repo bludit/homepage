@@ -172,10 +172,6 @@ function l($key) {
 					<div class="links-title"><a href="https://hub.docker.com/r/dignajar/bludit/"><i class="icon fa-th-large"></i> Docker</a></div>
 					<div class="links-description">Run Bludit as a container.</div>
 				</div>
-				<div class="links">
-					<div class="links-title"><a href="https://paypal.me/bludit/10"><i class="icon fa-money"></i> Donate</a></div>
-					<div class="links-description">If you really enjoy Bludit you can make a donation.</div>
-				</div>
 			</div>
 
 			<div class="6u 12u(narrower) important(narrower)">

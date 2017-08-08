@@ -2,7 +2,7 @@
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
-define('DOMAIN', 'http://bludithomepage.com');
+define('DOMAIN', 'https://www.bludit.com');
 
 // Language
 $defaultLanguage = 'en';
@@ -25,10 +25,5 @@ function l($key) {
 	}
 }
 
-// Version
-if (file_exists('/www/version.bludit.com/index.php')) {
-        include('/www/version.bludit.com/index.php');
-} else {
-        $version['stable']['version'] = "1.6.2";
-        $version['stable']['downloadLink'] = "https://";
-}
+$version['stable']['version'] = "1.6.2";
+$version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v1.6.2.zip";

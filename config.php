@@ -1,4 +1,5 @@
 <?php
+define('BLUDIT', true);
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
@@ -24,6 +25,10 @@ function l($key) {
 		echo $languageArray[$key];
 	}
 }
-
-$version['stable']['version'] = "1.6.2";
-$version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v1.6.2.zip";
+// Version
+if (file_exists('/www/version.bludit.com/index.php')) {
+        include('/www/version.bludit.com/index.php');
+} else {
+        $version['stable']['version'] = "1.6.2";
+        $version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v1.6.2.zip";
+}

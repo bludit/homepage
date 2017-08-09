@@ -23,14 +23,14 @@
 	"what-is-bludit": "What is Bludit ?",
 	"what-is-paragraph1": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit uses files in JSON format to store the content, you don't need to install or configure a database. You only need a web server with PHP support.",
 
-	"demo-paragraph1": "Try and feel the power of Bludit before install it.<br><b>Username:</b> admin <b>Password:</b> demo123",
+	"demo-paragraph1": "Try and feel the power of Bludit before installing it.<br><b>Username:</b> admin <b>Password:</b> demo123",
 
 	"themes-and-plugins": "Themes & Plugins",
 
 	"documentation-description": "Get information about Bludit, installation guide, requirements, upgrade guide, how to create content, how to insert an image, and more. Developers are welcome!",
-	"themes-and-plugins-description": "Many users develop themes and extensions for Bludit. If you are a developer or you like to design themes you can enter the forum and publish your work.",
-	"support-description": "Bludit has its own forum and a chat with many hackers who can help you with any question or issues, or just can say hello to the comunnity.",
+	"themes-and-plugins-description": "Many users develop themes and extensions for Bludit. If you are a developer or you like to design themes, you can enter the forum and publish your work.",
+	"support-description": "Bludit has its own forum and can chat with other gurus who can help you with any question or issue, or just say hello to the comunnity.",
 	"bludit-license": "Bludit is released under the <a href=\"https://tldrlegal.com/license/mit-license\">MIT license</a>",
-	"donations-paragraph1": "If you like Bludit and is useful for you please consider donate. <br> I spend hours on Bludit and is not only writing code there are a lot of things around Bludit such as support the user, fixing bugs, writing documentation, maintenance of the infrastructure, etc.",
-	"donations-paragraph2": "I really enjoy what I do and I want to keep Bludit up and running <i class=\"fa fa-smile-o\"></i> <br> Following there are some links for differents platform to make a donation. <br> Thank you!"
+	"donations-paragraph1": "If you like Bludit and is useful for you, please consider donating to the project. <br> I spend hours on Bludit not only writing code, but many other facets of Bludit such as supporting users, fixing bugs, writing documentation, maintenance of the infrastructure, etc.",
+	"donations-paragraph2": "I really enjoy what I do and want to keep Bludit up and running. <i class=\"fa fa-smile-o\"></i> <br> Below, there are some links for differents platforms so you can make a donation. <br> Thank you!"
 }

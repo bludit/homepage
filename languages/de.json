@@ -3,7 +3,7 @@
 	"head-description": "Bludit ist eine Web-Anwendung, mit der schnell und einfach eine eigene Website oder ein eigener Blog eingerichtet werden kann. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern. Es muss somit keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
 	"download": "Download",
 	"demo": "Demo",
-	"links". "Links",
+	"links": "Links",
 	"documentation": "Dokumentation",
 	"themes": "Themes",
 	"plugins": "Plugins",
@@ -14,7 +14,7 @@
 	"forum": "Forum",
 	"sponsors": "Sponsoren",
 	"admin-panel": "Administration",
-	
+
 	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Web site</b> oder deinen <b>Blog</b> ein",
 	"bludit-little-description-paragraph2": "Das einfache, schnelle und flexible CMS",
 
@@ -26,7 +26,7 @@
 	"demo-paragraph1": "Schau Dir Bludit an, bevor du es selbst installierst.<br><b>Benutzername:</b> admin <b>Passwort:</b> demo123",
 
 	"themes-and-plugins": "Themes & Plugins",
-	
+
 	"bludit-what-is-description": "Bludit ist eine einfache Web-Anwendung, um eine eigene Website oder einen eigenen Blog einzurichten. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien (Textdateien im JSON-Format), um Beiträge und Seiten zu speichern. Es muss somit keine Datenbank installiert werden. Alles, was es braucht, ist ein Webserver, auf dem PHP installiert ist.",
 
 	"download-box-description": "Download der letzten stabilen Version.<br>Und wenn Bludit gefällt, freuen wir uns auf eine Spende für die weitere Entwicklung.",

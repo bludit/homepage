@@ -1,6 +1,6 @@
 {
 	"head-title": "Bludit",
-	"head-description": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza archivos JSON para almacenar el contenido, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
+	"head-description": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza su propia base de datos, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
 	"download": "Descarga",
 	"demo": "Demo",
 	"links": "Enlaces",
@@ -21,7 +21,7 @@
 	"download-paragraph1": "Descarga la ultima versión.",
 
 	"what-is-bludit": "Qué es Bludit ?",
-	"what-is-paragraph1": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza archivos JSON para almacenar el contenido, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
+	"what-is-paragraph1": "Bludit es una aplicación web para construir tu propio sitio web o blog en segundos, es completamente gratis y de código abierto. Bludit utiliza su propia base de datos, no es necesario instalar ni configurar una base de datos. Sólo necesitas un servidor web con soporte PHP.",
 
 	"demo-paragraph1": "Pruebe y sienta el poder de Bludit antes de instalarlo. <br> <b>Nombre de usuario:</b> admin <b>Contraseña:</b> demo123",
 

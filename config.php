@@ -3,7 +3,7 @@ define('BLUDIT', true);
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
-define('DOMAIN', 'https://www.bludit.com');
+define('DOMAIN', 'http://bludithomepage.com');
 
 // Language
 $defaultLanguage = 'en';
@@ -17,12 +17,16 @@ if (isset($_GET['l'])) {
 $jsonData = file_get_contents(PATH_ROOT.'languages'.DS.$defaultLanguage.'.json');
 $languageArray = json_decode($jsonData, true);
 
-function l($key) {
+function l($key, $print=true) {
 	global $languageArray;
 	$key = mb_strtolower($key, CHARSET);
 	$key = str_replace(' ','-',$key);
 	if (isset($languageArray[$key])) {
-		echo $languageArray[$key];
+		if ($print) {
+			echo $languageArray[$key];
+		} else {
+			return $languageArray[$key];
+		}
 	}
 }
 // Version
@@ -31,4 +35,6 @@ if (file_exists('/www/version.bludit.com/index.php')) {
 } else {
         $version['stable']['version'] = "1.6.2";
         $version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v1.6.2.zip";
+	$version['beta']['changelogLink'] = 's';
+	$version['beta']['version'] = '2.0 Beta 1';
 }

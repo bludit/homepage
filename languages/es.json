@@ -32,5 +32,18 @@
 	"support-description": "Bludit tiene su propio chat y foro con muchos hackers que pueden ayudar con cualquier pregunta o problemas, o simplemente puede pasar a decir Hola! a la comunidad.",
 	"bludit-license": "Bludit esta bajo la <a href=\"https://tldrlegal.com/license/mit-license\">licencia MIT</a>",
 	"donations-paragraph1": "Si te gusta Bludit y te es útil por favor considere hacer una donación. <br> Dedico muchas horas en Bludit y no sólo escribiendo código, hay un montón de cosas en torno a Bludit, como el soporte a los usuario, correcion de errores, documentación, mantenimiento de la infraestructura, etc.",
-	"donations-paragraph2": "Realmente disfruto lo que hago y quiero mantener y seguir con mi trabajo con Bludit <i class=\"fa fa-smile-o\"></i> <br> Por el momento tenemos dos formas para hacer una donación. <br> Gracias!"
+	"donations-paragraph2": "Realmente disfruto lo que hago y quiero mantener y seguir con mi trabajo con Bludit <i class=\"fa fa-smile-o\"></i> <br> Por el momento tenemos dos formas para hacer una donación. <br> Gracias!",
+
+	"download-beta-paragraph1": "Información sobre la version beta",
+
+	"paypal-paragraph1": "Clic en el siguiente link <a href=\"https://paypal.me/bludit/10\">Paypal.me/Bludit</a>",
+	"paypal-paragraph2": "O envía tu donación directamente a mi correo electrónico <b class=\"diegoemail\"></b>",
+	"payoneer-paragraph1": "Envía tu donación directamente a mi correo electrónico <b class=\"diegoemail\"></b> o podes preguntarme por las cuentas bancarias que ofrece Payoneer.",
+	"skrill-paragraph1": "Envía tu donación directamente a mi correo electrónico <b class=\"diegoemail\"></b>",
+	"bitcoins-paragraph1": "Usted puede enviar la donación a mi dirección de Bitcoins",
+
+	"bludit-directory":"Lista de sitios con Bludit.",
+	"bludit-blog-new":"Ultimas noticias en nuestro blog.",
+	"bludit-youtube-channel":"Video tutoriales en nuestro canal.",
+	"bludit-docker": "Ejecute Bludit dentro de un container."
 }

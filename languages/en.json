@@ -1,6 +1,6 @@
 {
 	"head-title": "Bludit",
-	"head-description": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit uses its own database, you don't need to install or configure a database. You only need a web server with PHP support.",
+	"head-description": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit stores the content in files, you don't need to install or configure a database. You only need a web server with PHP support.",
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -21,7 +21,7 @@
 	"download-paragraph1": "Download the latest stable version.",
 
 	"what-is-bludit": "What is Bludit ?",
-	"what-is-paragraph1": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit uses its own database, you don't need to install or configure a database. You only need a web server with PHP support.",
+	"what-is-paragraph1": "Bludit is a web application to build your own web site or blog in seconds, it's completely free and open source. Bludit stores the content in files, you don't need to install or configure a database. You only need a web server with PHP support.",
 
 	"demo-paragraph1": "Try and feel the power of Bludit before installing it.<br><b>Username:</b> admin <b>Password:</b> demo123",
 

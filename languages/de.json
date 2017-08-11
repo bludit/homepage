@@ -1,6 +1,6 @@
 {
-	"headTitle": "Bludit",
-	"head-description": "Bludit ist eine Web-Anwendung, mit der schnell und einfach eine eigene Website oder ein eigener Blog eingerichtet werden kann. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern. Es muss somit keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
+	"head-title": "Bludit",
+	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern. Es muss somit keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -9,7 +9,7 @@
 	"plugins": "Plugins",
 	"donate": "Spenden",
 	"donations": "Spenden",
-	"support": "Support",
+	"support": "Hilfe",
 	"chat": "Chat",
 	"forum": "Forum",
 	"sponsors": "Sponsoren",
@@ -21,7 +21,7 @@
 	"download-paragraph1": "Download der aktuellen Version.",
 
 	"what-is-bludit": "Was ist Bludit?",
-	"what-is-paragraph1": "Bludit ist eine Web-Anwendung, mit der schnell und einfach eine eigene Website oder ein eigener Blog eingerichtet werden kann. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern. Es muss somit keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
+	"what-is-paragraph1": "Bludit ist eine Web-Anwendung, mit der schnell und einfach Websites oder Blogs eingerichtet werden können. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern, und braucht deshalb keine Datenbank. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
 
 	"demo-paragraph1": "Schau Dir Bludit an, bevor du es selbst installierst.<br><b>Benutzername:</b> admin <b>Passwort:</b> demo123",
 
@@ -31,7 +31,7 @@
 	"themes-and-plugins-description": "Viele Benutzer erstellen Themes und schreiben Plugins, stöbern lohnt sich! Dafür hat es auf GitHub zwei Repositories und im Forum eine Kategorie.",
 	"support-description": "Im Forum und im Chat helfen Entwickler und Benutzer bei Problemen und es kann über Themes, Plugins sowie Ideen und Vorschläge diskutiert werden kann.",
 	"bludit-license": "Bludit steht unter der <a href=\"https://tldrlegal.com/license/mit-license\">MIT-Lizenz</a>",
-	"donations-paragraph1": "Wenn Dir Bludit gefällt und Du es gerne verwendest, freut es mich, wenn Du mit einer Spende zum Projekt beiträgst. <br> In den zahlreichen Stunden, die ich für Bludit aufwende, schreibe ich nicht nur am Code, sondern leiste auch Hilfe, beseitige Fehler, erstelle die Dokumentation, unterhalte die Infrastruktur usw.",
+	"donations-paragraph1": "Wenn Dir Bludit gefällt und Du es gerne verwendest, freut es mich, wenn Du mit einer Spende zum Projekt beiträgst. <br> In den zahlreichen Stunden, die ich für Bludit aufwende, arbeite ich nicht nur am Code, sondern leiste auch Hilfe, beseitige Fehler, erstelle die Dokumentation, unterhalte die Infrastruktur usw.",
 	"donations-paragraph2": "Bludit macht mir Spass und ich möchte es gerne weiterentwickeln. <i class=\"fa fa-smile-o\"></i> <br> Derzeit kann über PayPal oder mit Bitcoins gespendet werden. <br> Vielen Dank!",
 
 	"download-beta-paragraph1": "Take a look at the beta version",
@@ -39,7 +39,7 @@
 	"paypal-paragraph1": "Click on the below link <a href=\"https://paypal.me/bludit/10\">Paypal.me/Bludit</a>",
 	"paypal-paragraph2": "Or send directly to my email account <b class=\"diegoemail\"></b>",
 	"payoneer-paragraph1": "You can send the donation to my email <b class=\"diegoemail\"></b> or ask me for another alternative such as Global Bank Account.",
-	"skrill-paragraph1": "Send the donation directly to my email account <b class=\"diegoemail\"></b>",
+	"skrill-paragraph1": "Überweise die Spende direkt an die E-Mail-Adresse <b class=\"diegoemail\"></b>",
 	"bitcoins-paragraph1": "You can send the donation to my Bitcoin Wallet Address",
 
 	"bludit-directory":"Directory of sites maded with Bludit.",

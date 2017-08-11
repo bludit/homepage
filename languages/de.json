@@ -38,11 +38,11 @@
 
 	"paypal-paragraph1": "Click on the below link <a href=\"https://paypal.me/bludit/10\">Paypal.me/Bludit</a>",
 	"paypal-paragraph2": "Or send directly to my email account <b class=\"diegoemail\"></b>",
-	"payoneer-paragraph1": "You can send the donation to my email <b class=\"diegoemail\"></b> or ask me for another alternative such as Global Bank Account.",
-	"skrill-paragraph1": "Überweise die Spende direkt an die E-Mail-Adresse <b class=\"diegoemail\"></b>",
+	"payoneer-paragraph1": "Du kannst deine Spende an meine E-Mail-Adresse <b class=\"diegoemail\"></b> überweisen oder mich nach einer anderen Möglichkeit fragen wie beispielsweise eine Überweisung.",
+	"skrill-paragraph1": "Du kannst deine Spende an meine E-Mail-Adresse <b class=\"diegoemail\"></b> überweisen.",
 	"bitcoins-paragraph1": "You can send the donation to my Bitcoin Wallet Address",
 
-	"bludit-directory":"Directory of sites maded with Bludit.",
+	"bludit-directory":"Verzeichnis von Websites, die Bludit verwenden.",
 	"bludit-blog-new":"Check out the latest news on our blog.",
 	"bludit-youtube-channel":"Watch video tutorials on our channel.",
 	"bludit-docker": "Run Bludit inside a container."

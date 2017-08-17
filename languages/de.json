@@ -15,20 +15,20 @@
 	"sponsors": "Sponsoren",
 	"admin-panel": "Administration",
 
-	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Web site</b> oder deinen <b>Blog</b> ein!",
+	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein!",
 	"bludit-little-description-paragraph2": "Das einfache, schnelle und flexible CMS.",
 
 	"download-paragraph1": "Download der aktuellen Version.",
 
 	"what-is-bludit": "Was ist Bludit?",
-	"what-is-paragraph1": "Bludit ist eine Web-Anwendung, mit der schnell und einfach Websites oder Blogs eingerichtet werden können. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern, und braucht deshalb keine Datenbank. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
+	"what-is-paragraph1": "Bludit ist eine Web-Anwendung, mit der du schnell und einfach Websites oder Blogs einrichten kannst. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu speichern, und braucht deshalb keine Datenbank. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
 
 	"demo-paragraph1": "Schau Dir Bludit an, bevor du es selbst installierst.<br><b>Benutzername:</b> admin <b>Passwort:</b> demo123",
 
 	"themes-and-plugins": "Themes & Plugins",
 
-	"documentation-description": "Informationen über Bludit, Bludit installieren, Beiträge und Seiten veröffentlichen, ein Bild einfügen usw. Entwickler willkommen!",
-	"themes-and-plugins-description": "Viele Benutzer erstellen Themes und schreiben Plugins, stöbern lohnt sich! Dafür hat es auf GitHub zwei Repositories und im Forum eine Kategorie.",
+	"documentation-description": "Informationen über Bludit, Voraussetzungen zur Verwendung, Anleitung zur Installation, zur Aktualisierung, zum Veröffentlichen von Inhalten, zum Einfügen von Bildern usw. Entwickler willkommen!",
+	"themes-and-plugins-description": "Viele Benutzer erstellen Themes und schreiben Plugins für Bludit. Wenn Du Entwickler bist oder gerne Themes erstellst, freuen wir uns, wenn du sie im Forum vorstellst.",
 	"support-description": "Im Forum und im Chat helfen Entwickler und Benutzer bei Problemen und es kann über Themes, Plugins sowie Ideen und Vorschläge diskutiert werden kann.",
 	"bludit-license": "Bludit steht unter der <a href=\"https://tldrlegal.com/license/mit-license\">MIT-Lizenz</a>",
 	"donations-paragraph1": "Wenn Dir Bludit gefällt und Du es gerne verwendest, freut es mich, wenn Du mit einer Spende zum Projekt beiträgst. <br> In den zahlreichen Stunden, die ich für Bludit aufwende, arbeite ich nicht nur am Code, sondern leiste auch Hilfe, beseitige Fehler, erstelle die Dokumentation, unterhalte die Infrastruktur usw.",
@@ -42,8 +42,8 @@
 	"skrill-paragraph1": "Du kannst deine Spende an meine E-Mail-Adresse <b class=\"diegoemail\"></b> überweisen.",
 	"bitcoins-paragraph1": "You can send the donation to my Bitcoin Wallet Address",
 
-	"bludit-directory":"Verzeichnis von Websites, die Bludit verwenden.",
-	"bludit-blog-new":"Check out the latest news on our blog.",
-	"bludit-youtube-channel":"Watch video tutorials on our channel.",
+	"bludit-directory":"Websites, die Bludit verwenden.",
+	"bludit-blog-new":"Neuigkeiten zu Bludit.",
+	"bludit-youtube-channel":"Channel mit Video-Anleitungen",
 	"bludit-docker": "Run Bludit inside a container."
 }

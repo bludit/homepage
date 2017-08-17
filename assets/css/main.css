@@ -1664,11 +1664,11 @@
 			border-bottom: solid 1.5px;
 			border-top: solid 1.5px;
 			content: '';
-			height: 7px;
 			opacity: 0.1;
 			position: absolute;
-			top: 1.75em;
 			width: 38%;
+			top: 2em;
+			height: 17px;
 		}
 
 		header.special:before {
@@ -2550,6 +2550,11 @@
 				margin-bottom: 4em;
 			}
 
+			header.special:before, header.special:after {
+				top: 1.8em;
+				width: 35%;
+			}
+
 	}
 
 /* Normal */
@@ -2643,6 +2648,11 @@
 				padding-right: 2.5em;
 			}
 
+			header.special:before, header.special:after {
+				top: 1.8em;
+				width: 35%;
+			}
+
 			footer.major {
 				padding-top: 1.5em;
 			}
@@ -2715,7 +2725,8 @@
 			}
 
 				header.special:before, header.special:after {
-					width: 40%;
+					top: 6.2em;
+					width: 30%;
 				}
 
 				header.special h2 + p {
@@ -3035,6 +3046,7 @@
 
 					header.special:before, header.special:after {
 						width: 38%;
+						border: 0 !important;
 					}
 
 					header.special .icon {

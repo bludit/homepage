@@ -3,7 +3,7 @@ define('BLUDIT', true);
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
-define('DOMAIN', 'https://www.bludit.com');
+define('DOMAIN', 'http://bludithomepage.com');
 
 // Language
 $defaultLanguage = 'en';

@@ -1565,7 +1565,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #222222;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -1578,7 +1578,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #3fb1a3;
+		color: #1571d3;
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -2019,7 +2019,7 @@
 			}
 
 			table.default thead {
-				background: #7c8081;
+				background: #222222;
 				color: #fff;
 			}
 
@@ -2506,7 +2506,7 @@
 
 	#footer {
 		background: #E8EEF4;
-		color: #7c8081;
+		color: #222222;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}

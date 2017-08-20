@@ -250,7 +250,7 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-$( document ).ready(function() {
+$(document).ready(function() {
 	$("#donationPaypal").click(function(event) {
 		$("#modalPaypal").show();
 	});
@@ -275,6 +275,18 @@ $( document ).ready(function() {
 	var part2 = "&#097;&#114;&#064;&#103;&#109;&#097;";
 	var part6 = "&#105;&#108;&#046;&#099;&#111;&#109;";
 	$(".diegoemail").html(part3+part2+part6);
+});
+
+$(document).on('click', function (e) {
+	if ( $("div.modal").is(e.target)) {
+		$(".modal").hide();
+	}
+});
+
+$(document).keyup(function(e) {
+	if (e.keyCode == 27) {
+		$(".modal").hide();
+	}
 });
 </script>
 

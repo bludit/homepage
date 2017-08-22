@@ -26,7 +26,7 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="<?php echo $defaultLocale ?>">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="?php l('head title') ?>">
+	<meta property="og:title" content="<?php l('head title') ?>">
 	<meta property="og:description" content="<?php l('head description') ?>">
 	<meta property="og:url" content="<?php echo $topbar['website'] ?>">
 	<meta property="og:image" content="https://cdn.bludit.com/images/bludit-facebook-cards.png">

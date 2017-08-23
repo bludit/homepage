@@ -21,7 +21,7 @@
 	<meta name="twitter:site" content="@bludit" />
 	<meta name="twitter:title" content="<?php l('head title') ?>" />
 	<meta name="twitter:description" content="<?php l('head description') ?>" />
-	<meta name="twitter:image" content="https://cdn.bludit.com/images/bludit-twitter-cards.png" />
+	<meta name="twitter:image" content="<?php echo CDN.'/images/bludit-twitter-cards.png' ?>" />
 
 	<!-- Open Graph -->
 	<meta property="og:locale" content="<?php echo $defaultLocale ?>" />
@@ -29,10 +29,9 @@
 	<meta property="og:title" content="<?php l('head title') ?>" />
 	<meta property="og:description" content="<?php l('head description') ?>" />
 	<meta property="og:url" content="<?php echo $topbar['website'] ?>" />
-	<meta property="og:image" content="https://cdn.bludit.com/images/bludit-facebook-cards.png" />
+	<meta property="og:image" content="<?php echo CDN.'/images/bludit-facebook-cards.png' ?>" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:alt" content="Blue Bludit Logo" />
-
 
 	<!-- Google hreflang tag -->
 	<link rel="alternate" hreflang="en" href="<?php echo DOMAIN ?>" />

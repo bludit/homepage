@@ -105,8 +105,8 @@
 		<div class="content">
 			<h1 class="title"><?php l('Demo') ?></h1>
 			<p><?php l('demo-paragraph1') ?></p>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com"><i class="icon fa-clone"></i> <?php l('Demo') ?></a>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-pencil"></i> <?php l('Admin panel') ?></a>
+			<a class="button1 small-button" target="_blank" href="https://demo.bludit.com/blog/"><i class="icon fa-clone"></i> <?php l('Demo') ?></a>
+			<a class="button1 small-button" target="_blank" href="https://demo.bludit.com/blog/admin"><i class="icon fa-pencil"></i> <?php l('Admin panel') ?></a>
 
 			<!--
 			<p><?php l('demo-description') ?></p>

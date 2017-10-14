@@ -66,7 +66,7 @@
 			<li><a href="<?php echo $topbar['docs'] ?>"><?php l('Documentation') ?></a></li>
 			<li><a href="<?php echo $topbar['themes'] ?>"><?php l('Themes') ?></a></li>
 			<li><a href="<?php echo $topbar['plugins'] ?>"><?php l('Plugins') ?></a></li>
-			<li><a href="<?php echo $topbar['donations'] ?>"><?php l('Donations') ?></a></li>
+			<li><a href="<?php echo $topbar['donations'] ?>"><?php l('Donate') ?></a></li>
 			<li><a href="<?php echo $topbar['pro'] ?>">Bludit PRO</a></li>
 		</ul>
 		</nav>

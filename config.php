@@ -13,7 +13,7 @@ $topbar = array(
 	'docs'=>'https://docs.bludit.com',
 	'themes'=>'https://themes.bludit.com',
 	'plugins'=>'https://plugins.bludit.com',
-	'donations'=>'https://www.bludit.com#donations',
+	'donations'=>'https://pro.bludit.com/#donate',
 	'pro'=>'https://pro.bludit.com',
 	'website'=>DOMAIN
 );

@@ -31,7 +31,7 @@
 	<meta property="og:url" content="<?php echo $topbar['website'] ?>" />
 	<meta property="og:image" content="<?php echo CDN.'/images/bludit-facebook-cards.png' ?>" />
 	<meta property="og:image:type" content="image/png" />
-	<meta property="og:image:alt" content="Blue Bludit Logo" />
+	<meta property="og:image:alt" content="Bludit Logo" />
 
 	<!-- Google hreflang tag -->
 	<link rel="alternate" hreflang="en" href="<?php echo DOMAIN ?>" />
@@ -44,14 +44,13 @@
 	?>
 
 	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-67610404-1"></script>
 	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-		ga('create', 'UA-67610404-1', 'auto');
-		ga('send', 'pageview');
+		gtag('config', 'UA-67610404-1');
 	</script>
 </head>
 <body class="no-sidebar">
@@ -68,7 +67,7 @@
 			<li><a href="<?php echo $topbar['themes'] ?>"><?php l('Themes') ?></a></li>
 			<li><a href="<?php echo $topbar['plugins'] ?>"><?php l('Plugins') ?></a></li>
 			<li><a href="<?php echo $topbar['donations'] ?>"><?php l('Donations') ?></a></li>
-			<!-- <li><a href="<?php echo $topbar['pro'] ?>">Bludit PRO</a></li> -->
+			<li><a href="<?php echo $topbar['pro'] ?>">Bludit PRO</a></li>
 		</ul>
 		</nav>
 	</header>
@@ -105,15 +104,7 @@
 		<div class="content">
 			<h1 class="title"><?php l('Demo') ?></h1>
 			<p><?php l('demo-paragraph1') ?></p>
-			<a class="button1 small-button" target="_blank" href="https://demo.bludit.com/blog/"><i class="icon fa-clone"></i> <?php l('Demo') ?></a>
-			<a class="button1 small-button" target="_blank" href="https://demo.bludit.com/blog/admin"><i class="icon fa-pencil"></i> <?php l('Admin panel') ?></a>
-
-			<!--
-			<p><?php l('demo-description') ?></p>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/admin"><i class="icon fa-clone"></i> Website</a>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-pencil"></i> Blog</a>
-			<a class="button1 small-button" target="_blank" href="http://demo-bludit.rhcloud.com/"><i class="icon fa-columns"></i> Website + Blog</a>
-			-->
+			<a class="button1 small-button" target="_blank" href="https://demo.bludit.com"><i class="icon fa-clone"></i> <?php l('Demo') ?></a>
 		</div>
 		</section>
 
@@ -156,7 +147,7 @@
 				<p><?php l('support-description') ?></p>
 				<footer>
 					<ul class="buttons">
-						<li><a target="_blank" href="https://gitter.im/dignajar/bludit"><?php l('Chat') ?></a></li>
+						<li><a target="_blank" href="https://gitter.im/bludit/support"><?php l('Chat') ?></a></li>
 						<li><a target="_blank" href="https://forum.bludit.org"><?php l('Forum') ?></a></li>
 					</ul>
 				</footer>
@@ -206,51 +197,6 @@
 		</div>
 		</section>
 
-		<section id="donations" class="wrapper style3 container">
-		<div class="content">
-			<h1 class="title"><i class="fa fa-handshake-o" aria-hidden="true"></i> <?php l('Donations') ?></h1>
-			<p><?php l("donations-paragraph1") ?></p>
-			<p><?php l("donations-paragraph2") ?></p>
-			<div id="donationPaypal" class="donation-button"><i class="icon fa-paypal"></i> Paypal</div>
-			<div id="donationPayoneer" class="donation-button"><i class="icon fa-money"></i> Payonneer</div>
-			<div id="donationSkrill" class="donation-button"><i class="icon fa-money"></i> Skrill</div>
-			<div id="donationBitcoins" class="donation-button"><i class="icon fa-bitcoin"></i> Bitcoins</div>
-		</div>
-		</section>
-
-		<div id="modalPaypal" class="modal">
-			<div class="modal-content">
-			<span class="donationClose">&times;</span>
-			<h1>Paypal</h1>
-			<p><?php l('paypal-paragraph1') ?></p>
-			<p><?php l('paypal-paragraph2') ?></p>
-			</div>
-		</div>
-
-		<div id="modalPayoneer" class="modal">
-			<div class="modal-content">
-			<span class="donationClose">&times;</span>
-			<h1>Payoneer</h1>
-			<p><?php l('payoneer-paragraph1') ?></p>
-			</div>
-		</div>
-
-		<div id="modalSkrill" class="modal">
-			<div class="modal-content">
-			<span class="donationClose">&times;</span>
-			<h1>Skrill</h1>
-			<p><?php l('skrill-paragraph1') ?></p>
-			</div>
-		</div>
-
-		<div id="modalBitcoins" class="modal">
-			<div class="modal-content">
-			<span class="donationClose">&times;</span>
-			<h1>Bitcoins</h1>
-			<p><?php l('bitcoins-paragraph1') ?><br> <b>3Dm3pNssSs2gLT1DvDoWznXJj829CEyfej</b></p>
-			</div>
-		</div>
-
 	</article>
 
 	<!-- Footer -->
@@ -276,47 +222,6 @@
 	</footer>
 
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function() {
-	$("#donationPaypal").click(function(event) {
-		$("#modalPaypal").show();
-	});
-
-	$("#donationPayoneer").click(function(event) {
-		$("#modalPayoneer").show();
-	});
-
-	$("#donationSkrill").click(function(event) {
-		$("#modalSkrill").show();
-	});
-
-	$("#donationBitcoins").click(function(event) {
-		$("#modalBitcoins").show();
-	});
-
-	$(".donationClose").click(function(event) {
-		$(".modal").hide();
-	});
-
-	var part3 = "&#100;&#105;&#103;&#110;&#097;&#106;";
-	var part2 = "&#097;&#114;&#064;&#103;&#109;&#097;";
-	var part6 = "&#105;&#108;&#046;&#099;&#111;&#109;";
-	$(".diegoemail").html(part3+part2+part6);
-});
-
-$(document).on('click', function (e) {
-	if ( $("div.modal").is(e.target)) {
-		$(".modal").hide();
-	}
-});
-
-$(document).keyup(function(e) {
-	if (e.keyCode == 27) {
-		$(".modal").hide();
-	}
-});
-</script>
 
 </body>
 </html>

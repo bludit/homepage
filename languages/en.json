@@ -27,20 +27,12 @@
 
 	"themes-and-plugins": "Themes & Plugins",
 
+	"download-beta-paragraph1": "Take a look at the beta version",
+
 	"documentation-description": "Get information about Bludit, installation guide, requirements, upgrade guide, how to create content, how to insert an image, and more. Developers are welcome!",
 	"themes-and-plugins-description": "Many users develop themes and extensions for Bludit. If you are a developer or you like to design themes, you can enter the forum and publish your work.",
 	"support-description": "Bludit has its own forum and can chat with other gurus who can help you with any question or issue, or just say hello to the comunnity.",
 	"bludit-license": "Bludit is released under the <a href=\"https://tldrlegal.com/license/mit-license\">MIT license</a>",
-	"donations-paragraph1": "If you like Bludit and is useful for you, please consider donating to the project. <br> I spend hours on Bludit not only writing code, but many other facets of Bludit such as supporting users, fixing bugs, writing documentation, maintenance of the infrastructure, etc.",
-	"donations-paragraph2": "I really enjoy what I do and want to keep Bludit up and running. <i class=\"fa fa-smile-o\"></i> <br> Below, there are some links for differents platforms so you can make a donation. <br> Thank you!",
-
-	"download-beta-paragraph1": "Take a look at the beta version",
-
-	"paypal-paragraph1": "Click on the below link <a href=\"https://paypal.me/bludit/10\">Paypal.me/Bludit</a>",
-	"paypal-paragraph2": "Or send directly to my email account <b class=\"diegoemail\"></b>",
-	"payoneer-paragraph1": "You can send the donation to my email <b class=\"diegoemail\"></b> or ask me for another alternative such as Global Bank Account.",
-	"skrill-paragraph1": "Send the donation directly to my email account <b class=\"diegoemail\"></b>",
-	"bitcoins-paragraph1": "You can send the donation to my Bitcoin Wallet Address",
 
 	"bludit-directory":"Directory of sites maded with Bludit.",
 	"bludit-blog-new":"Check out the latest news on our blog.",

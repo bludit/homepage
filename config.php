@@ -53,7 +53,7 @@ if ($defaultLanguage == "es") {
 		'docs'=>'https://docs.bludit.com/es/',
 		'themes'=>'https://themes.bludit.com/es/',
 		'plugins'=>'https://plugins.bludit.com/es/',
-		'donations'=>'https://www.bludit.com/es/#donations',
+		'donations'=>'https://pro.bludit.com/es/#donate',
 		'pro'=>'https://pro.bludit.com/es/',
 		'website'=>DOMAIN.'/es/'
 	);
@@ -65,7 +65,7 @@ if ($defaultLanguage == "es") {
 		'docs'=>'https://docs.bludit.com/de/',
 		'themes'=>'https://themes.bludit.com/de/',
 		'plugins'=>'https://plugins.bludit.com/de/',
-		'donations'=>'https://www.bludit.com/de/#donations',
+		'donations'=>'https://pro.bludit.com/de/#donate',
 		'pro'=>'https://pro.bludit.com/de/',
 		'website'=>DOMAIN.'/de/'
 	);

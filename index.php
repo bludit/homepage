@@ -217,6 +217,7 @@
 			<li><a href="https://www.bludit.com">English</a></li>
 			<li><a href="https://www.bludit.com/de/">Deutsch</a></li>
 			<li><a href="https://www.bludit.com/es/">Español</a></li>
+			<li><a href="https://www.bludit.com/pl/">Polski</a></li>
 		</ul>
 
 	</footer>

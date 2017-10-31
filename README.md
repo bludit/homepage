@@ -10,3 +10,6 @@ German:
 
 Español (Spanish):
 - https://www.bludit.com/es/
+
+Polski (Polish)
+- https://www.bludit.com/pl/

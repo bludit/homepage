@@ -20,7 +20,7 @@ $topbar = array(
 
 // Language
 $defaultLanguage = 'en';
-$acceptedLanguages = array('en', 'de', 'es');
+$acceptedLanguages = array('en', 'de', 'es', 'pl');
 if (isset($_GET['l'])) {
 	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$defaultLanguage = $_GET['l'];
@@ -45,17 +45,17 @@ function l($key, $print=true) {
 
 // Locale
 $defaultLocale = 'en_US';
-if ($defaultLanguage == "es") {
-	$defaultLocale = 'es_ES';
+if ($defaultLanguage == "en") {
+	$defaultLocale = 'en_US';
 	$topbar = array(
-		'download'=>'https://www.bludit.com/es/#download',
-		'demo'=>'https://www.bludit.com/es/#demo',
-		'docs'=>'https://docs.bludit.com/es/',
-		'themes'=>'https://themes.bludit.com/es/',
-		'plugins'=>'https://plugins.bludit.com/es/',
-		'donations'=>'https://pro.bludit.com/es/#donate',
-		'pro'=>'https://pro.bludit.com/es/',
-		'website'=>DOMAIN.'/es/'
+		'download'=>'https://www.bludit.com/en/#download',
+		'demo'=>'https://www.bludit.com/en/#demo',
+		'docs'=>'https://docs.bludit.com/en/',
+		'themes'=>'https://themes.bludit.com/en/',
+		'plugins'=>'https://plugins.bludit.com/en/',
+		'donations'=>'https://pro.bludit.com/en/#donate',
+		'pro'=>'https://pro.bludit.com/en/',
+		'website'=>DOMAIN.'/en/'
 	);
 } elseif ($defaultLanguage == "de") {
 	$defaultLocale = 'de_DE';
@@ -68,6 +68,30 @@ if ($defaultLanguage == "es") {
 		'donations'=>'https://pro.bludit.com/de/#donate',
 		'pro'=>'https://pro.bludit.com/de/',
 		'website'=>DOMAIN.'/de/'
+	);
+} elseif ($defaultLanguage == "es") {
+	$defaultLocale = 'es_ES';
+	$topbar = array(
+		'download'=>'https://www.bludit.com/es/#download',
+		'demo'=>'https://www.bludit.com/es/#demo',
+		'docs'=>'https://docs.bludit.com/es/',
+		'themes'=>'https://themes.bludit.com/es/',
+		'plugins'=>'https://plugins.bludit.com/es/',
+		'donations'=>'https://pro.bludit.com/es/#donate',
+		'pro'=>'https://pro.bludit.com/es/',
+		'website'=>DOMAIN.'/es/'
+	);
+} elseif ($defaultLanguage == "pl") {
+	$defaultLocale = 'pl_PL';
+	$topbar = array(
+		'download'=>'https://www.bludit.com/pl/#download',
+		'demo'=>'https://www.bludit.com/pl/#demo',
+		'docs'=>'https://docs.bludit.com/pl/',
+		'themes'=>'https://themes.bludit.com/pl/',
+		'plugins'=>'https://plugins.bludit.com/pl/',
+		'donations'=>'https://pro.bludit.com/pl/#donate',
+		'pro'=>'https://pro.bludit.com/pl/',
+		'website'=>DOMAIN.'/pl/'
 	);
 }
 

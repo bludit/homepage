@@ -75,10 +75,10 @@ if ($defaultLanguage == "es") {
 		'download'=>'https://www.bludit.com/pl/#download',
 		'demo'=>'https://www.bludit.com/pl/#demo',
 		'docs'=>'https://docs.bludit.com',
-		'themes'=>'https://themes.bludit.com/pl/',
-		'plugins'=>'https://plugins.bludit.com/pl/',
-		'donations'=>'https://pro.bludit.com/pl/#donate',
-		'pro'=>'https://pro.bludit.com/pl/',
+		'themes'=>'https://themes.bludit.com',
+		'plugins'=>'https://plugins.bludit.com',
+		'donations'=>'https://pro.bludit.com/#donate',
+		'pro'=>'https://pro.bludit.com',
 		'website'=>DOMAIN.'/pl/'
 	);
 }

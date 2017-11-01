@@ -45,17 +45,17 @@ function l($key, $print=true) {
 
 // Locale
 $defaultLocale = 'en_US';
-if ($defaultLanguage == "en") {
-	$defaultLocale = 'en_US';
+if ($defaultLanguage == "es") {
+	$defaultLocale = 'es_ES';
 	$topbar = array(
-		'download'=>'https://www.bludit.com/en/#download',
-		'demo'=>'https://www.bludit.com/en/#demo',
-		'docs'=>'https://docs.bludit.com/en/',
-		'themes'=>'https://themes.bludit.com/en/',
-		'plugins'=>'https://plugins.bludit.com/en/',
-		'donations'=>'https://pro.bludit.com/en/#donate',
-		'pro'=>'https://pro.bludit.com/en/',
-		'website'=>DOMAIN.'/en/'
+		'download'=>'https://www.bludit.com/es/#download',
+		'demo'=>'https://www.bludit.com/es/#demo',
+		'docs'=>'https://docs.bludit.com/es/',
+		'themes'=>'https://themes.bludit.com/es/',
+		'plugins'=>'https://plugins.bludit.com/es/',
+		'donations'=>'https://pro.bludit.com/es/#donate',
+		'pro'=>'https://pro.bludit.com/es/',
+		'website'=>DOMAIN.'/es/'
 	);
 } elseif ($defaultLanguage == "de") {
 	$defaultLocale = 'de_DE';
@@ -68,18 +68,6 @@ if ($defaultLanguage == "en") {
 		'donations'=>'https://pro.bludit.com/de/#donate',
 		'pro'=>'https://pro.bludit.com/de/',
 		'website'=>DOMAIN.'/de/'
-	);
-} elseif ($defaultLanguage == "es") {
-	$defaultLocale = 'es_ES';
-	$topbar = array(
-		'download'=>'https://www.bludit.com/es/#download',
-		'demo'=>'https://www.bludit.com/es/#demo',
-		'docs'=>'https://docs.bludit.com/es/',
-		'themes'=>'https://themes.bludit.com/es/',
-		'plugins'=>'https://plugins.bludit.com/es/',
-		'donations'=>'https://pro.bludit.com/es/#donate',
-		'pro'=>'https://pro.bludit.com/es/',
-		'website'=>DOMAIN.'/es/'
 	);
 } elseif ($defaultLanguage == "pl") {
 	$defaultLocale = 'pl_PL';

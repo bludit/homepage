@@ -238,7 +238,7 @@
 			$.ajax({
 				url: "<?php echo NEWSLETTER ?>",
 				method: "POST",
-				data: "e11=" + $("#e10").attr("value"),
+				data: "e11=" + $("#e10").val(),
 				dataType: 'json',
 				success: function(json) {
 					console.log(json);

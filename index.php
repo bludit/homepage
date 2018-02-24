@@ -174,7 +174,6 @@
 			<h2><?php l('Newsletter') ?></h2>
 			<h2 id="success" style="display: none"><i class="fa fa-check"></i></h2>
 			<div class="form-group">
-				<input type="hidden" id="e11" name="e11" value="e11">
 				<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
 			</div>
 			<button id="e09" class="btn btn-primary"><?php l('Subscribe') ?></button>
@@ -234,16 +233,12 @@
         <script>
         $(document).ready(function(){
 
-		$("#e10").keyup(function() {
-			$("#e11").attr("value", $(this).val());
-		});
-
 		$("#e09").click(function(e) {
 			e.preventDefault();
 			$.ajax({
 				url: "<?php echo NEWSLETTER ?>",
 				method: "POST",
-				data: "e11=" + $("#e11").attr("value"),
+				data: "e11=" + $("#e10").attr("value"),
 				dataType: 'json',
 				success: function(json) {
 					console.log(json);

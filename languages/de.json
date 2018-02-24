@@ -15,7 +15,7 @@
 	"admin-panel": "Administration",
 
 	"head-title": "Bludit - Flat-File CMS",
-	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu spreichern. Es muss somit keine Datenbank installiert und konfiguriert werden. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
+	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source.",
 	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein!",
 	"bludit-little-description-paragraph2": "Das einfache, schnelle und flexible CMS.",
 	"download-paragraph1": "Download der aktuellen Version.",

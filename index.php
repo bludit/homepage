@@ -59,7 +59,7 @@
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand" href="<?php echo $_topbar['website'] ?>">
-				<img src="<?php echo DOMAIN ?>/img/bludit-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+				<img src="<?php echo DOMAIN ?>/img/bludit-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="Bludit Logo">
 				BLUDIT
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"

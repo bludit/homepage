@@ -9,7 +9,7 @@ define('VERSION', '2.0');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');
-define('SCREENSHOT', 'https://df6m0u2ovo2fu.cloudfront.net/images/screenshot.png');
+define('SCREENSHOT', 'https://df6m0u2ovo2fu.cloudfront.net/images/screenshotv2.png');
 define('NEWSLETTER', 'https://www.bludit.com/newsletter.php');
 
 include('functions.php');

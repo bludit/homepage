@@ -12,7 +12,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="<?php echo DOMAIN ?>/css/bludit.css?version=<?php echo VERSION ?>" rel="stylesheet">
+	<link href="<?php echo DOMAIN ?>/css/bludit.min.css?version=<?php echo VERSION ?>" rel="stylesheet">
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="<?php echo DOMAIN ?>/img/favicon.png">
@@ -210,7 +210,7 @@
 
 	<footer>
 		<div class="container">
-			<p>Bludit.com - &copy; 2018. All Rights Reserved.</p>
+			<p>Bludit &copy; 2015-<?php echo date('y') ?>. All Rights Reserved.</p>
 			<ul class="list-inline">
 				<li class="list-inline-item">
 					<a href="https://www.bludit.com">English</a>

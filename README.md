@@ -1,6 +1,5 @@
 # Bludit Homepage
-This repository contains the files of the official page of Bludit.
-Feel free to create a pull request with improves, languages translations, etc.
+Source code of
 
 English:
 - https://www.bludit.com
@@ -8,8 +7,7 @@ English:
 German:
 - https://www.bludit.com/de/
 
-Español (Spanish):
+Español:
 - https://www.bludit.com/es/
 
-Polski (Polish)
-- https://www.bludit.com/pl/
+Based on [Start Bootstrap "New Age"](https://startbootstrap.com/template-overviews/new-age/) template.

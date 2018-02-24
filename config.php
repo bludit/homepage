@@ -51,7 +51,7 @@ $_hreflang = array('en'=>rtrim(DOMAIN,'/'));
 $tmpLanguages = $acceptedLanguages;
 unset($tmpLanguages[0]);
 foreach ($tmpLanguages as $lang) {
-	$_hreflang[$lang] = rtrim(DOMAIN,'/'.$lang.'/');
+	$_hreflang[$lang] = rtrim(DOMAIN,'/').'/'.$lang.'/';
 }
 
 // Version

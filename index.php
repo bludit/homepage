@@ -103,7 +103,7 @@
 					</div>
 				</div>
 				<div class="bludit-dashboard mx-auto">
-					<img src="img/screenshot.png" alt="Screenshot of Bludit">
+					<img src="<?php echo SCREENSHOT ?>" alt="Screenshot of Bludit">
 				</div>
 			</div>
 		</div>

@@ -243,7 +243,7 @@
 			$.ajax({
 				url: "<?php echo NEWSLETTER ?>",
 				method: "POST",
-				data: "e11=" + $("#e11").val(),
+				data: "e11=" + $("#e11").attr("value"),
 				dataType: 'json',
 				success: function(json) {
 					console.log(json);

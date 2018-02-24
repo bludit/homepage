@@ -172,13 +172,12 @@
 	<section class="newsletter bg-dark">
 		<div class="container">
 			<h2><?php l('Newsletter') ?></h2>
-			<form>
-				<div class="form-group">
-					<input type="hidden" id="e11" name="e11" value="e11">
-					<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
-				</div>
-				<button id="e09" class="btn btn-primary"><?php l('Subscribe') ?></button>
-			</form>
+			<h2 id="success"><i class="fa fa-check"></i></h2>
+			<div class="form-group">
+				<input type="hidden" id="e11" name="e11" value="e11">
+				<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
+			</div>
+			<button id="e09" class="btn btn-primary"><?php l('Subscribe') ?></button>
 		</div>
 	</section>
 
@@ -239,7 +238,8 @@
 			$("#e11").attr("value", $(this).val());
 		});
 
-		$("#e09").click(function() {
+		$("#e09").click(function(e) {
+			e.preventDefault();
 			$.ajax({
 				url: "<?php echo NEWSLETTER ?>",
 				method: "POST",
@@ -252,6 +252,9 @@
 					console.log("Error");
 				}
 			});
+			$("#e10").hide();
+			$("#e09").hide();
+			$("#success").show();
 		});
 
         });

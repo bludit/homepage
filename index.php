@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Diego Najar">
 	<meta name="description" content="<?php l('head description') ?>">
+	<meta name="title" content="<?php l('head title') ?>">
 	<title><?php l('head title') ?></title>
 
 	<!-- CSS files -->

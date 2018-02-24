@@ -172,7 +172,7 @@
 	<section class="newsletter bg-dark">
 		<div class="container">
 			<h2><?php l('Newsletter') ?></h2>
-			<h2 id="success"><i class="fa fa-check"></i></h2>
+			<h2 id="success" class="d-none"><i class="fa fa-check"></i></h2>
 			<div class="form-group">
 				<input type="hidden" id="e11" name="e11" value="e11">
 				<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">

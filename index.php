@@ -35,10 +35,14 @@
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:alt" content="Bludit" />
 
+	<!-- Canonical -->
+	<link rel="canonical" href="<?php echo $_topbar['website'] ?>" />
+
 	<!-- Google hreflang tag -->
 	<?php foreach ($_hreflang as $hreflang=>$href): ?>
 	<link rel="alternate" hreflang="<?php echo $hreflang ?>" href="<?php echo $href ?>" />
 	<?php endforeach ?>
+	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
 
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-67610404-1"></script>

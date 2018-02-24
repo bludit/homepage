@@ -5,6 +5,7 @@ define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
 define('DOMAIN', 'https://www.bludit.com');
 #define('DOMAIN', 'http://localhost:8000');
+define('VERSION', '2.0');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');

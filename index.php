@@ -185,22 +185,22 @@
 			<h2><?php l('we-love-new-friends') ?></h2>
 			<ul class="list-inline list-social">
 				<li class="list-inline-item social-twitter">
-					<a href="#">
+					<a href="https://twitter.com/bludit">
 						<i class="fa fa-twitter"></i>
 					</a>
 				</li>
 				<li class="list-inline-item social-facebook">
-					<a href="#">
+					<a href="https://www.facebook.com/bluditcms/">
 						<i class="fa fa-facebook"></i>
 					</a>
 				</li>
 				<li class="list-inline-item social-google-plus">
-					<a href="#">
+					<a href="https://plus.google.com/+Bluditcms">
 						<i class="fa fa-google-plus"></i>
 					</a>
 				</li>
 				<li class="list-inline-item social-github">
-					<a href="#">
+					<a href="https://github.com/bludit/bludit">
 						<i class="fa fa-github"></i>
 					</a>
 				</li>

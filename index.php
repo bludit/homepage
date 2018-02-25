@@ -177,11 +177,21 @@
 	<section class="newsletter bg-dark">
 		<div class="container">
 			<h2><?php l('Newsletter') ?></h2>
+			<?php if($currentLanguage=='de'): ?>
+			<form action="https://clickwork.us13.list-manage.com/subscribe/post?u=acbf0acf6816cbacae8230f7f&amp;id=4a73f2539d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div class="form-group">
+				<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
+				<input class="d-none" type="text" name="b_acbf0acf6816cbacae8230f7f_4a73f2539d" tabindex="-1" value="">
+				</div>
+				<input type="submit" value="Abonnieren" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+			</form>
+			<?php else: ?>
 			<h2 id="success" style="display: none"><i class="fa fa-check"></i></h2>
 			<div class="form-group">
 				<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
 			</div>
 			<button id="e09" class="btn btn-primary"><?php l('Subscribe') ?></button>
+			<?php endif ?>
 		</div>
 	</section>
 

@@ -1,5 +1,5 @@
 {
-	"search": "Suche,
+	"search": "Suche",
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -32,8 +32,8 @@
 	"bludit-blog-new":"Neuigkeiten zu Bludit.",
 	"bludit-youtube-channel":"Channel mit Video-Anleitungen",
 	"bludit-docker": "Run Bludit inside a container.",
-	"flat-file-cms": "Flat-File CMS",
-	"bludit-has-his-own-database-manager": "Bludit hat sein eigenes Datenbanksystem, du musst also keine eigene Datenbank einrichten.",
+	"flat-file-cms": "Flat-File-CMS",
+	"bludit-has-his-own-database-manager": "Bludit hat ein eigenes Datenbanksystem, du musst also keine zus&auml;liche Datenbank einrichten.",
 	"bludit-supports-markdown": "Bludit unterst&uuml;tzt Markdown und HTML-Code.",
 	"free-and-open-source": "Kostenlos &amp; Open Source",
 	"subscribe": "Subscribe",

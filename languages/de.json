@@ -1,5 +1,5 @@
 {
-	"search": "Suche",
+	"search": "Search",
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -14,7 +14,7 @@
 	"sponsors": "Sponsoren",
 	"admin-panel": "Administration",
 
-	"head-title": "Bludit - Flat-File-CMS",
+	"head-title": "Bludit - Flat-File CMS",
 	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source.",
 	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein!",
 	"bludit-little-description-paragraph2": "Das einfache, schnelle und flexible CMS.",
@@ -22,7 +22,7 @@
 	"what-is-bludit": "Was ist Bludit?",
 	"what-is-paragraph1": "Bludit ist eine Web-Anwendung, mit der du schnell und einfach Websites oder Blogs einrichten kannst. Sie ist völlig kostenlos und Open Source. Bludit verwendet Dateien im Format JSON, um die Inhalte zu speichern, und braucht deshalb keine Datenbank. Alles, was benötigt wird, ist ein Server, auf dem PHP installiert ist.",
 	"demo-paragraph1": "Schau Dir Bludit an, bevor du es selbst installierst.<br><b>Benutzername:</b> admin <b>Passwort:</b> demo123",
-	"themes-and-plugins": "Themes &amp; Plugins",
+	"themes-and-plugins": "Themes & Plugins",
 	"documentation-description": "Informationen über Bludit, Voraussetzungen zur Verwendung, Anleitung zur Installation, zur Aktualisierung, zum Veröffentlichen von Inhalten, zum Einfügen von Bildern usw. Entwickler willkommen!",
 	"themes-and-plugins-description": "Viele Benutzer erstellen Themes und schreiben Plugins für Bludit. Wenn Du Entwickler bist oder gerne Themes erstellst, freuen wir uns, wenn du sie im Forum vorstellst.",
 	"support-description": "Im Forum und im Chat helfen Entwickler und Benutzer bei Problemen und es kann über Themes, Plugins sowie Ideen und Vorschläge diskutiert werden kann.",
@@ -32,13 +32,13 @@
 	"bludit-blog-new":"Neuigkeiten zu Bludit.",
 	"bludit-youtube-channel":"Channel mit Video-Anleitungen",
 	"bludit-docker": "Run Bludit inside a container.",
-	"flat-file-cms": "Flat-File-CMS",
-	"bludit-has-his-own-database-manager": "Bludit hat ein eigenes Datenbanksystem, du musst also keine zus&auml;liche Datenbank einrichten.",
-	"bludit-supports-markdown": "Bludit unterst&uuml;tzt Markdown und HTML-Code.",
-	"free-and-open-source": "Kostenlos &amp; Open Source",
+	"flat-file-cms": "Flat-File CMS",
+	"bludit-has-his-own-database-manager": "Bludit has his own database manager, you don't need to install or configure one.",
+	"bludit-supports-markdown": "Bludit supports Markdown and HTML code.",
+	"free-and-open-source": "Free &amp; Open Source",
 	"subscribe": "Subscribe",
 	"contribute": "Contribute",
-	"enter-email": "E-Mail-Adresse",
+	"enter-email": "Enter email",
 	"newsletter": "Newsletter",
-	"we-love-new-friends": "Wir <i class=\"fa fa-heart\"></i> neue Freunde!"
+	"we-love-new-friends": "We <i class=\"fa fa-heart\"></i> new friends!"
 }

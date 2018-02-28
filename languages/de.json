@@ -33,7 +33,7 @@
 	"bludit-youtube-channel":"Channel mit Video-Anleitungen",
 	"bludit-docker": "Run Bludit inside a container.",
 	"flat-file-cms": "Flat-File-CMS",
-	"bludit-has-his-own-database-manager": "Bludit hat ein eigenes Datenbanksystem, du musst also keine zus&auml;liche Datenbank einrichten.",
+	"bludit-has-his-own-database-manager": "Bludit hat ein eigenes Datenbanksystem, braucht also keine zus&auml;liche Datenbank.",
 	"bludit-supports-markdown": "Bludit unterst&uuml;tzt Markdown und HTML-Code.",
 	"free-and-open-source": "Kostenlos &amp; Open Source",
 	"subscribe": "Subscribe",

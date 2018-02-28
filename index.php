@@ -117,7 +117,7 @@
 	<section class="download bg-primary text-center" id="download">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 mx-auto">
+				<div class="col-md-9 mx-auto">
 					<h2 class="section-heading"><?php l('Flat File CMS') ?></h2>
 					<p><?php l('bludit-has-his-own-database-manager') ?></p>
 					<h2 class="section-heading"># Markdown</h2>

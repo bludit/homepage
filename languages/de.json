@@ -1,5 +1,5 @@
 {
-	"search": "Search",
+	"search": "Suche,
 	"download": "Download",
 	"demo": "Demo",
 	"links": "Links",
@@ -14,7 +14,7 @@
 	"sponsors": "Sponsoren",
 	"admin-panel": "Administration",
 
-	"head-title": "Bludit - Flat-File CMS",
+	"head-title": "Bludit - Flat-File-CMS",
 	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source.",
 	"bludit-little-description-paragraph1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein!",
 	"bludit-little-description-paragraph2": "Das einfache, schnelle und flexible CMS.",
@@ -34,11 +34,11 @@
 	"bludit-docker": "Run Bludit inside a container.",
 	"flat-file-cms": "Flat-File CMS",
 	"bludit-has-his-own-database-manager": "Bludit has his own database manager, you don't need to install or configure one.",
-	"bludit-supports-markdown": "Bludit supports Markdown and HTML code.",
-	"free-and-open-source": "Free &amp; Open Source",
+	"bludit-supports-markdown": "Bludit unterstützt Markdown und HTML-Code.",
+	"free-and-open-source": "Kostenlos &amp; Open Source",
 	"subscribe": "Subscribe",
 	"contribute": "Contribute",
-	"enter-email": "Enter email",
+	"enter-email": "E-Mail-Adresse",
 	"newsletter": "Newsletter",
-	"we-love-new-friends": "We <i class=\"fa fa-heart\"></i> new friends!"
+	"we-love-new-friends": "Wir <i class=\"fa fa-heart\"></i> neue Freunde!"
 }

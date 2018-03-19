@@ -1,4 +1,7 @@
-<?php include('config.php') ?>
+<?php
+	define('BLUDIT', true);
+	include('config.php');
+?>
 <!DOCTYPE HTML>
 <html>
 <head>

@@ -1,5 +1,4 @@
-<?php
-define('BLUDIT', true);
+<?php defined('BLUDIT') or die('BLUDIT');
 define('DS', DIRECTORY_SEPARATOR);
 define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');

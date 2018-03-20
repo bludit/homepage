@@ -1,4 +1,4 @@
-<?php
+<?php defined('BLUDIT') or die('BLUDIT');
 
 function l($key, $print=true) {
 	global $languageArray;

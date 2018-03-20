@@ -89,6 +89,7 @@
 							<a class="dropdown-item" href="https://www.bludit.com">English</a>
 							<a class="dropdown-item" href="https://www.bludit.com/de/">Deutsch</a>
 							<a class="dropdown-item" href="https://www.bludit.com/es/">Español</a>
+							<a class="dropdown-item" href="https://www.bludit.com/it">Italiano</a>
 						</div>
 					</li>
 				</ul>
@@ -239,6 +240,8 @@
 				<li class="list-inline-item">
 					<a href="https://www.bludit.com/es/">Español</a>
 				</li>
+				<li>
+				<a href="https://www.bludit.com/it/">Italiano</a>
 			</ul>
 		</div>
 	</footer>

@@ -46,16 +46,6 @@
 	<link rel="alternate" hreflang="<?php echo $hreflang ?>" href="<?php echo $href ?>" />
 	<?php endforeach ?>
 	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
-
-	<!-- Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-67610404-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-67610404-1');
-	</script>
 </head>
 <html>
 	<!-- Navigation -->

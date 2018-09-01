@@ -1,5 +1,14 @@
-# Bludit Landing page
-Source code for the landing page of [Bludit.com](https://www.bludit.com)
+# Source code of https://www.bludit.com
+This repository has all the source files of the official page of [Bludit.com](https://www.bludit.com).
 
-Designed base on Scribbler by [Amie Chen](https://www.amie-chen.com/)
+Based on Scribbler by [Amie Chen](https://www.amie-chen.com/)
 - https://tympanus.net/codrops/2018/01/12/freebie-scribbler-website-template-html-sketch/
+
+English:
+- https://www.bludit.com
+
+Deutsch:
+- https://www.bludit.com/de/
+
+Español:
+- https://www.bludit.com/es/

@@ -53,13 +53,13 @@
 		<div class="logo"></div>
 		<ul class="menu">
 			<div class="menu__item toggle"><span></span></div>
-			<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark"><?php l('Themes') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark"><?php l('Plugins') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark"><?php l('Documentation') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark">Bludit PRO</a></li>
-			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-facebook"></i></a></li>
-			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-twitter"></i></a></li>
-			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark" target="_blank"><?php l('Themes') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark" target="_blank"><?php l('Plugins') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark" target="_blank"><?php l('Documentation') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark" target="_blank">Bludit PRO</a></li>
+			<li class="menu__item"><a href="https://www.facebook.com/bluditcms" class="link link--dark" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li class="menu__item"><a href="https://twitter.com/bludit/" class="link link--dark" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li class="menu__item"><a href="https://plus.google.com/+Bluditcms" class="link link--dark" target="_blank"><i class="fa fa-github"></i></a></li>
 		</ul>
 	</nav>
 	<div class="hero">
@@ -74,7 +74,7 @@
 
 		<div class="callout">
 			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-download"></i> <?php l('Download') ?> v<?php echo $version['stable']['version'] ?></a>
-			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
+			<a href="https://demo.bludit.com" target="_blank" class="button--primary button--download"><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
 		</div>
 
 		<div class="feature">
@@ -111,9 +111,9 @@
 
 		<div class="callout">
 			<p><?php l('bludit-support') ?></p>
-			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
-			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Chat') ?></a>
-			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
+			<a href="https://forum.bludit.org" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
+			<a href="https://gitter.im/bludit/support" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Chat') ?></a>
+			<a href="https://github.com/bludit/bludit/issues" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
 		</div>
 
 	</div>
@@ -124,8 +124,8 @@
 		</div>
 	</div>
 	<footer class="footer">
-		<div><a href="https://www.bludit.com">English</a><a href="https://www.bludit.com/de/">Deutsch</a><a href="https://www.bludit.com/es/">Español</a><a href="https://www.bludit.com/it/">Italiano</a></div>
-		<div>Bludit © 2015-18. All Rights Reserved.</div>
+		<div><a href="https://www.bludit.com">English</a><a href="https://www.bludit.com/de/">Deutsch</a><a href="https://www.bludit.com/es/">Español</a></div>
+		<div>Bludit © 2015-<?php echo date('y') ?>. All Rights Reserved.</div>
 	</footer>
 	<?php
 		js('scribbler.js');

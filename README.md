@@ -1,16 +1,5 @@
-# Source code of https://www.bludit.com
-This repository contains the files of the official page of Bludit.
+# Bludit Landing page
+Source code for the landing page of [Bludit.com](https://www.bludit.com)
 
-Based on [Start Bootstrap "New Age"](https://startbootstrap.com/template-overviews/new-age/) template.
-
-English:
-- https://www.bludit.com
-
-Deutsch:
-- https://www.bludit.com/de/
-
-Español:
-- https://www.bludit.com/es/
-
-Italiano:
-- https://www.bludit.com/it/
+Designed base on Scribbler by [Amie Chen](https://www.amie-chen.com/)
+- https://tympanus.net/codrops/2018/01/12/freebie-scribbler-website-template-html-sketch/

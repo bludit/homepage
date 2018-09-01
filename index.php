@@ -1,22 +1,23 @@
-<?php
-	define('BLUDIT', true);
-	include('config.php');
-?>
-<!DOCTYPE HTML>
+<?php define('BLUDIT', true); define('PATH_ROOT', __DIR__.DIRECTORY_SEPARATOR); include('php/config.php'); ?>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="Diego Najar">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="<?php l('head description') ?>">
 	<meta name="title" content="<?php l('head title') ?>">
 	<title><?php l('head title') ?></title>
 
+	<meta name="author" content="Diego Najar">
+
 	<!-- CSS files -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="<?php echo DOMAIN ?>/css/bludit.min.css?version=<?php echo VERSION ?>" rel="stylesheet">
+	<?php
+		css('scribbler-global.css');
+		css('scribbler-landing.css');
+		css('bludit.css');
+	?>
 
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="<?php echo DOMAIN ?>/img/favicon.png">
@@ -47,223 +48,87 @@
 	<?php endforeach ?>
 	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
 </head>
-<html>
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand" href="<?php echo $_topbar['website'] ?>">
-				<img src="<?php echo DOMAIN ?>/img/bludit-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="Bludit Logo">
-				BLUDIT
-			</a>
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $_topbar['themes'] ?>"><?php l('themes') ?></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $_topbar['plugins'] ?>"><?php l('plugins') ?></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $_topbar['documentation'] ?>"><?php l('documentation') ?></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="<?php echo $_topbar['pro'] ?>">Bludit PRO</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="https://www.bludit.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe"></i></a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="https://www.bludit.com">English</a>
-							<a class="dropdown-item" href="https://www.bludit.com/de/">Deutsch</a>
-							<a class="dropdown-item" href="https://www.bludit.com/es/">Español</a>
-							<a class="dropdown-item" href="https://www.bludit.com/it">Italiano</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
+<body>
+	<nav>
+		<div class="logo"></div>
+		<ul class="menu">
+			<div class="menu__item toggle"><span></span></div>
+			<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark"><?php l('Themes') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark"><?php l('Plugins') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark"><?php l('Documentation') ?></a></li>
+			<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark">Bludit PRO</a></li>
+			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-facebook"></i></a></li>
+			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-twitter"></i></a></li>
+			<li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i></a></li>
+		</ul>
 	</nav>
+	<div class="hero">
+		<h1 class="hero__title">Bludit</h1>
+		<p class="hero__description"><?php l('bludit-slogan1') ?></p>
+		<p class="hero__description"><?php l('bludit-slogan2') ?></p>
+	</div>
+	<div class="hero__terminal">
+		<img src="<?php echo $_topbar['slider1'] ?>" />
+	</div>
+	<div class="wrapper">
 
-	<header class="masthead">
-		<div class="container h-100">
-			<div class="row h-100">
-				<div class="col-lg-10 my-auto mx-auto text-center">
-					<h1 class="mt-5 font-weight-bold">BLUDIT</h1>
-					<h3><?php l('bludit-little-description-paragraph1') ?></h3>
-					<h3 class="mb-4"><?php l('bludit-little-description-paragraph2') ?></h3>
-					<div class="m-2">
-						<a href="<?php echo $version['stable']['downloadLink'] ?>" class="btn btn-outline btn-xl "><i class="fa fa-download"></i> <?php l('Download') ?> v<?php echo $version['stable']['version'] ?></a>
-					</div>
-					<div class="m-2">
-						<a target="_blank" href="https://demo.bludit.com" class="btn btn-outline btn-xl "><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
-					</div>
-				</div>
-				<div class="bludit-dashboard mx-auto">
-					<img src="<?php echo SCREENSHOT ?>" alt="Screenshot of Bludit">
-				</div>
+		<div class="callout">
+			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-download"></i> <?php l('Download') ?> v<?php echo $version['stable']['version'] ?></a>
+			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
+		</div>
+
+		<div class="feature">
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('Flat File') ?></h3>
+				<p><?php l('bludit-feature1') ?></p>
+			</div>
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('Themes') ?></h3>
+				<p><?php l('bludit-feature2') ?></p>
+			</div>
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('Plugins') ?></h3>
+				<p><?php l('bludit-feature3') ?></p>
+			</div>
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('SEO friendly') ?></h3>
+				<p><?php l('bludit-feature4') ?></p>
+			</div>
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('Markdown support') ?></h3>
+				<p><?php l('bludit-feature5') ?></p>
+			</div>
+			<div class="feature__item">
+				<h3 class="section__title"><?php l('GDPR Compliant') ?></h3>
+				<p><?php l('bludit-feature6') ?></p>
 			</div>
 		</div>
-	</header>
 
-	<section class="download bg-primary text-center" id="download">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9 mx-auto">
-					<h2 class="section-heading"><?php l('Flat File CMS') ?></h2>
-					<p><?php l('bludit-has-his-own-database-manager') ?></p>
-					<h2 class="section-heading"># Markdown</h2>
-					<p><?php l('bludit-supports-markdown') ?></p>
-					<h2 class="section-heading"><?php l('free-and-open-source') ?></h2>
-					<p><?php l('bludit license') ?></p>
-				</div>
-			</div>
+		<div class="callout">
+			<p><?php l('bludit-documentation') ?></p>
+			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-book"></i> <?php l('Documentation') ?></a>
 		</div>
-	</section>
 
-	<section class="features" id="features">
-		<div class="container">
-			<div class="row">
-				<div class="my-auto mx-auto">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-lg-4">
-								<div class="feature-item">
-									<i class="fa fa-book"></i>
-									<h3><?php l('Documentation') ?></h3>
-									<p class="text-muted"><?php l('documentation-description') ?></p>
-									<p><a class="mx-3" href="<?php echo $_topbar['documentation'] ?>"><?php l('Documentation') ?></a></p>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="feature-item">
-									<i class="fa fa-plus-square-o"></i>
-									<h3><?php l('Contribute') ?></h3>
-									<p class="text-muted"><?php l('themes-and-plugins-description') ?></p>
-									<p>
-										<a class="mx-3" href="<?php echo $_topbar['themes'] ?>"><?php l('Themes') ?></a>
-										<a class="mx-3" href="<?php echo $_topbar['plugins'] ?>"><?php l('Plugins') ?></a>
-										<a class="mx-3" href="<?php echo $_topbar['pro'] ?>"><?php l('Donate') ?></a>
-									</p>
-								</div>
-							</div>
-							<div class="col-lg-4">
-								<div class="feature-item">
-									<i class="fa fa-life-ring"></i>
-									<h3><?php l('Support') ?></h3>
-									<p class="text-muted"><?php l('support-description') ?></p>
-									<p>
-										<a class="mx-3" href="https://forum.bludit.org"><?php l('Forum') ?></a>
-										<a class="mx-3" href="https://gitter.im/bludit/support"><?php l('Chat') ?></a>
-										<a class="mx-3" href="https://github.com/bludit/bludit/issues">Github issues</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<div class="callout">
+			<p><?php l('bludit-support') ?></p>
+			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
+			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Chat') ?></a>
+			<a href="https://docs.bludit.com" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
 		</div>
-	</section>
 
-	<section class="newsletter bg-dark">
-		<div class="container">
-			<h2><?php l('Newsletter') ?></h2>
-			<?php if($currentLanguage=='de'): ?>
-			<form action="https://clickwork.us13.list-manage.com/subscribe/post?u=acbf0acf6816cbacae8230f7f&amp;id=4a73f2539d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div class="form-group">
-				<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
-				<input class="d-none" type="text" name="b_acbf0acf6816cbacae8230f7f_4a73f2539d" tabindex="-1" value="">
-				</div>
-				<input type="submit" value="Abonnieren" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-			</form>
-			<?php else: ?>
-			<h2 id="success" style="display: none"><i class="fa fa-check"></i></h2>
-			<div class="form-group">
-				<input type="text" id="e10" value="" class="form-control form-control-lg" placeholder="<?php l('Enter email') ?>">
-			</div>
-			<button id="e09" class="btn btn-primary"><?php l('Subscribe') ?></button>
-			<?php endif ?>
+	</div>
+	<div class="changelog">
+		<div class="wrapper wrapper-tweets">
+			<a data-height="500" class="twitter-timeline" href="https://twitter.com/bludit?ref_src=twsrc%5Etfw">Tweets by bludit</a>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
-	</section>
-
-	<section class="contact bg-primary" id="contact">
-		<div class="container">
-			<h2><?php l('we-love-new-friends') ?></h2>
-			<ul class="list-inline list-social">
-				<li class="list-inline-item social-twitter">
-					<a href="https://twitter.com/bludit">
-						<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li class="list-inline-item social-facebook">
-					<a href="https://www.facebook.com/bluditcms/">
-						<i class="fa fa-facebook"></i>
-					</a>
-				</li>
-				<li class="list-inline-item social-google-plus">
-					<a href="https://plus.google.com/+Bluditcms">
-						<i class="fa fa-google-plus"></i>
-					</a>
-				</li>
-				<li class="list-inline-item social-github">
-					<a href="https://github.com/bludit/bludit">
-						<i class="fa fa-github"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<footer>
-		<div class="container">
-			<p>Bludit &copy; 2015-<?php echo date('y') ?>. All Rights Reserved.</p>
-			<ul class="list-inline">
-				<li class="list-inline-item">
-					<a href="https://www.bludit.com">English</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="https://www.bludit.com/de/">Deutsch</a>
-				</li>
-				<li class="list-inline-item">
-					<a href="https://www.bludit.com/es/">Español</a>
-				</li>
-				<li>
-				<a href="https://www.bludit.com/it/">Italiano</a>
-			</ul>
-		</div>
+	</div>
+	<footer class="footer">
+		<div><a href="https://www.bludit.com">English</a><a href="https://www.bludit.com/de/">Deutsch</a><a href="https://www.bludit.com/es/">Español</a><a href="https://www.bludit.com/it/">Italiano</a></div>
+		<div>Bludit © 2015-18. All Rights Reserved.</div>
 	</footer>
-
-	<!-- Javascript stuff -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-	<script src="<?php echo DOMAIN ?>/js/bludit.js"></script>
-
-        <script>
-        $(document).ready(function(){
-
-		$("#e09").click(function(e) {
-			e.preventDefault();
-			$.ajax({
-				url: "<?php echo NEWSLETTER ?>",
-				method: "POST",
-				data: "e11=" + $("#e10").val(),
-				dataType: 'json',
-				success: function(json) {
-					console.log(json);
-				},
-				error: function(json) {
-					console.log("Error");
-				}
-			});
-			$("#e10").hide();
-			$("#e09").hide();
-			$("#success").fadeIn();
-		});
-
-        });
-        </script>
+	<?php
+		js('scribbler.js');
+	?>
 </body>
 </html>

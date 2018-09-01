@@ -1,9 +1,8 @@
 <?php defined('BLUDIT') or die('BLUDIT');
 define('DS', DIRECTORY_SEPARATOR);
 define('CHARSET', 'UTF-8');
-#define('DOMAIN', 'https://www.bludit.com');
-define('DOMAIN', 'https://varlogdiego.com/v3');
-define('VERSION', '2.0');
+define('DOMAIN', 'https://www.bludit.com');
+define('VERSION', '3.0');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');

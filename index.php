@@ -68,7 +68,7 @@
 		<p class="hero__description"><?php l('bludit-slogan2') ?></p>
 	</div>
 	<div class="hero__terminal">
-		<img src="<?php echo $_topbar['slider1'] ?>" />
+		<img src="<?php echo $_topbar['slider1'] ?>" alt="Bludit image slider" />
 	</div>
 	<div class="wrapper">
 
@@ -120,7 +120,7 @@
 	<div class="changelog">
 		<div class="wrapper wrapper-tweets">
 			<a data-height="500" class="twitter-timeline" href="https://twitter.com/bludit?ref_src=twsrc%5Etfw">Tweets by bludit</a>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<script async src="https://platform.twitter.com/widgets.js"></script>
 		</div>
 	</div>
 	<footer class="footer">

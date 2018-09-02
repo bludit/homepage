@@ -1,6 +1,6 @@
 <?php define('BLUDIT', true); define('PATH_ROOT', __DIR__.DIRECTORY_SEPARATOR); include('php/config.php'); ?>
 <!DOCTYPE html>
-<html>
+<html lang="<?php echo $currentLanguage ?>">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
 	<nav>
 		<div class="logo"></div>
 		<ul class="menu">
-			<div class="menu__item toggle"><span></span></div>
+			<li><div class="menu__item toggle"><span></span></div></li>
 			<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark" target="_blank"><?php l('Themes') ?></a></li>
 			<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark" target="_blank"><?php l('Plugins') ?></a></li>
 			<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark" target="_blank"><?php l('Documentation') ?></a></li>

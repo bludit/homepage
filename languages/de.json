@@ -30,13 +30,13 @@
 	"bludit-slogan1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein.",
 	"bludit-slogan2": "Das einfache, schnelle und flexible CMS.",
 
-	"bludit-feature1": "Bludit speichert die Inhalte in Dateien des Formats JSON. Somit musst Du keine Datenbank einrichten und konfigurieren.",
-	"bludit-feature2": "F&uuml;r deine Website stehen sch&ouml;ne und coole Themes zu Verf&uuml;gung, die Du von der <a href=\"https://themes.bludit.com\" target=\"_blank\">Offiziellen Website</a> herunterladen kannst.",
-	"bludit-feature3": "F&uuml;r die Erweiterung mit Funktionen gibt es tolle Plugins, die Du von der <a href=\"https://plugins.bludit.com\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
-	"bludit-feature4": "Bludit enth&auml;lt alle n&ouml;tigen Tools, mit denen du das Ranking deiner Website bei Suchmaschinen optimieren kannst.",
-	"bludit-feature5": "Bludit unterst&uuml;tzt Markdown und HTML-Code. Dazu kannst du wahlweise einen Markdown- oder WYSIWYG-Editor verwenden.",
+	"bludit-feature1": "Bludit speichert die Inhalte in Dateien des Formats JSON. Du musst keine Datenbank einrichten und konfigurieren.",
+	"bludit-feature2": "F&uuml;r deine Website stehen sch&ouml;ne und coole Themes zu Verf&uuml;gung, die du von der <a href=\"https://themes.bludit.com/de/\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
+	"bludit-feature3": "F&uuml;r die Erweiterung mit Funktionen gibt es tolle Plugins, die du von der <a href=\"https://plugins.bludit.com/de/\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
+	"bludit-feature4": "Bludit enth&auml;lt alle Tools, mit denen das Ranking bei Suchmaschinen und Ver&ouml;ffentlichen in sozialen Netzwerken optimiert werden kann.",
+	"bludit-feature5": "Bludit unterst&uuml;tzt Markdown und HTML-Code. Du kannst wahlweise einen Markdown- oder einen WYSIWYG-Editor verwenden.",
 	"bludit-feature6": "Bludit nimmt den Datenschutz und die Sicherheit ernst. Es speichert keine Daten von Besuchern und verwendet keine externe Dienste.",
 
-	"bludit-documentation": "Lies unsere Dokumentation f&uuml;r die Voraussetzungen, die Installation, Anleitungen und mehr.",
-	"bludit-support": "Ben&ouml;tigst du Hilfe? Du kannst mit uns im Forum, im Chat oder auf GitHub Kontakt aufnehmen."
+	"bludit-documentation": "Lies unsere Dokumentation mit Anleitungen zur Einrichtung, zum Gebrauch und zu vielem mehr.",
+	"bludit-support": "Ben&ouml;tigst du Hilfe? Du kannst im Forum, im Chat oder auf GitHub Fragen stellen."
 }

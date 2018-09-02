@@ -75,6 +75,7 @@
 		<div class="callout">
 			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-download"></i> <?php l('Download') ?> v<?php echo $version['stable']['version'] ?></a>
 			<a href="https://demo.bludit.com" target="_blank" class="button--primary button--download"><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
+			<div style="margin-top: 10px; font-size: 0.9em;"><a href="https://github.com/bludit/bludit/archive/v3.0.0-rc-2.zip"><?php l('Download') ?> v3.0.0-rc2</a></div>
 		</div>
 
 		<div class="feature">

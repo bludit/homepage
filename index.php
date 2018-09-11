@@ -59,7 +59,7 @@
 			<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark" target="_blank">Bludit PRO</a></li>
 			<li class="menu__item"><a href="https://www.facebook.com/bluditcms" class="link link--dark" target="_blank"><i class="fa fa-facebook"></i></a></li>
 			<li class="menu__item"><a href="https://twitter.com/bludit/" class="link link--dark" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			<li class="menu__item"><a href="https://plus.google.com/+Bluditcms" class="link link--dark" target="_blank"><i class="fa fa-github"></i></a></li>
+			<li class="menu__item"><a href="https://github.com/bludit/bludit" class="link link--dark" target="_blank"><i class="fa fa-github"></i></a></li>
 		</ul>
 	</nav>
 	<div class="hero">

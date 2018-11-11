@@ -32,7 +32,7 @@ if ($currentLanguage !== "en") {
 		'plugins'=>'https://plugins.bludit.com/'.$currentLanguage.'/',
 		'pro'=>'https://pro.bludit.com/'.$currentLanguage.'/',
 		'website'=>DOMAIN.'/'.$currentLanguage.'/',
-		'slider1'=>'https://cdn.rawgit.com/bludit/homepage/44fa5685/img/bludit_1_'.$currentLanguage.'.png'
+		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_'.$currentLanguage.'.png'
 	);
 } else {
 	$_topbar = array(
@@ -41,7 +41,7 @@ if ($currentLanguage !== "en") {
 		'plugins'=>'https://plugins.bludit.com',
 		'pro'=>'https://pro.bludit.com',
 		'website'=>DOMAIN,
-		'slider1'=>'https://cdn.rawgit.com/bludit/homepage/44fa5685/img/bludit_1_en.png'
+		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_en.png'
 	);
 }
 

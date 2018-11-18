@@ -2,7 +2,7 @@
 define('DS', DIRECTORY_SEPARATOR);
 define('CHARSET', 'UTF-8');
 define('DOMAIN', 'https://www.bludit.com');
-define('VERSION', '3.0');
+define('VERSION', '3.4');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');
@@ -13,7 +13,7 @@ include('functions.php');
 
 // Language passed via $_GET['l']
 $currentLanguage = 'en';
-$acceptedLanguages = array('en', 'de', 'es');
+$acceptedLanguages = array('en', 'de', 'es', 'ru');
 if (isset($_GET['l'])) {
 	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$currentLanguage = $_GET['l'];

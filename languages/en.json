@@ -35,7 +35,7 @@
 	"bludit-feature3": "Extend Bludit's functionality with amazing plugins. You can download plugins from the <a href=\"https://plugins.bludit.com\" target=\"_blank\">official site.</a>",
 	"bludit-feature4": "Bludit incorporates all the SEO tools to improve your ranking in all the search engines and social networks.",
 	"bludit-feature5": "Bludit supports Markdown and HTML code for the content, also provide Markdown Editor and WYSIWYG Editor.",
-	"bludit-feature6": "Bludit takes care of the security and privacy of the users. Bludit doesn't track or uses any external resources.",
+	"bludit-feature6": "Bludit takes care of the security and privacy of the users. Bludit doesn't track or uses external libraries, frameworks and other resources.",
 
 	"bludit-documentation": "Read our documentation for requirements, installation guide, how to's and more.",
 	"bludit-support": "Do you need support? Reach us in the forum, chat or Github issues."

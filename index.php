@@ -125,7 +125,12 @@
 		</div>
 	</div>
 	<footer class="footer">
-		<div><a href="https://www.bludit.com">English</a><a href="https://www.bludit.com/ru/">Русский</a><a href="https://www.bludit.com/de/">Deutsch</a><a href="https://www.bludit.com/es/">Español</a></div>
+		<div>
+			<a href="https://www.bludit.com">English</a>
+			<a href="https://www.bludit.com/de/">Deutsch</a>
+			<a href="https://www.bludit.com/es/">Español</a>
+			<a href="https://www.bludit.com/ru/">Русский</a>
+		</div>
 		<div>Bludit © 2015-<?php echo date('y') ?>. All Rights Reserved.</div>
 	</footer>
 	<?php

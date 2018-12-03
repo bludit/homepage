@@ -1,10 +1,8 @@
 <?php defined('BLUDIT') or die('BLUDIT');
 define('DS', DIRECTORY_SEPARATOR);
-define('PATH_ROOT', __DIR__.DS);
 define('CHARSET', 'UTF-8');
 define('DOMAIN', 'https://www.bludit.com');
-#define('DOMAIN', 'http://localhost:8000');
-define('VERSION', '2.0');
+define('VERSION', '3.4');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');
@@ -15,7 +13,7 @@ include('functions.php');
 
 // Language passed via $_GET['l']
 $currentLanguage = 'en';
-$acceptedLanguages = array('en', 'de', 'es', 'it');
+$acceptedLanguages = array('en', 'de', 'es', 'ru');
 if (isset($_GET['l'])) {
 	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$currentLanguage = $_GET['l'];
@@ -29,11 +27,12 @@ $languageArray = json_decode($json, true);
 $_topbar = array();
 if ($currentLanguage !== "en") {
 	$_topbar = array(
-		'documentation'=>'https://docs.bludit.com/'.$currentLanguage.'/',
+		'documentation'=>'https://docs.bludit.com',
 		'themes'=>'https://themes.bludit.com/'.$currentLanguage.'/',
 		'plugins'=>'https://plugins.bludit.com/'.$currentLanguage.'/',
 		'pro'=>'https://pro.bludit.com/'.$currentLanguage.'/',
-		'website'=>DOMAIN.'/'.$currentLanguage.'/'
+		'website'=>DOMAIN.'/'.$currentLanguage.'/',
+		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_'.$currentLanguage.'.png'
 	);
 } else {
 	$_topbar = array(
@@ -41,7 +40,8 @@ if ($currentLanguage !== "en") {
 		'themes'=>'https://themes.bludit.com',
 		'plugins'=>'https://plugins.bludit.com',
 		'pro'=>'https://pro.bludit.com',
-		'website'=>DOMAIN
+		'website'=>DOMAIN,
+		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_en.png'
 	);
 }
 

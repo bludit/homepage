@@ -12,3 +12,6 @@ Deutsch:
 
 Español:
 - https://www.bludit.com/es/
+
+Русский:
+- https://www.bludit.com/ru/

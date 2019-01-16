@@ -2,7 +2,7 @@
 define('DS', DIRECTORY_SEPARATOR);
 define('CHARSET', 'UTF-8');
 define('DOMAIN', 'https://www.bludit.com');
-define('VERSION', '3.4');
+define('VERSION', '3.6');
 
 define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');
@@ -32,7 +32,7 @@ if ($currentLanguage !== "en") {
 		'plugins'=>'https://plugins.bludit.com/'.$currentLanguage.'/',
 		'pro'=>'https://pro.bludit.com/'.$currentLanguage.'/',
 		'website'=>DOMAIN.'/'.$currentLanguage.'/',
-		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_'.$currentLanguage.'.png'
+		'slider1'=>'https://www.bludit.com/img/bludit_1_'.$currentLanguage.'.png'
 	);
 } else {
 	$_topbar = array(
@@ -41,7 +41,7 @@ if ($currentLanguage !== "en") {
 		'plugins'=>'https://plugins.bludit.com',
 		'pro'=>'https://pro.bludit.com',
 		'website'=>DOMAIN,
-		'slider1'=>'https://cdn.jsdelivr.net/gh/bludit/homepage/img/bludit_1_en.png'
+		'slider1'=>'https://www.bludit.com/img/bludit_1_en.png'
 	);
 }
 

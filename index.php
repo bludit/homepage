@@ -47,6 +47,7 @@
 	<link rel="alternate" hreflang="<?php echo $hreflang ?>" href="<?php echo $href ?>" />
 	<?php endforeach ?>
 	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
+	
 </head>
 <body>
 	<nav>
@@ -136,5 +137,23 @@
 	<?php
 		js('scribbler.js');
 	?>
+
+	<!--
+		Yandex.Metrika counter
+		Masking IP addresses enabled for GDPR
+	-->
+	
+	<script type="text/javascript" >
+	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	   ym(51941300, "init", {
+		id:51941300,
+		clickmap:true,
+		trackLinks:true,
+		accurateTrackBounce:true
+	   });
+	</script>
 </body>
 </html>

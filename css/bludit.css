@@ -82,4 +82,8 @@ img {
 		width: 90%;
 		min-height: 213px;
 	}
+
+	.changelog {
+		display: none !important;
+	}
 }

@@ -152,8 +152,10 @@
 		id:51941300,
 		clickmap:true,
 		trackLinks:true,
-		accurateTrackBounce:true
+		accurateTrackBounce:true,
+		webvisor:true
 	   });
 	</script>
+
 </body>
 </html>

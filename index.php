@@ -51,7 +51,7 @@
 		    "https://github.com/dignajar/",
 		    "https://www.linkedin.com/in/diegonajar/"
 		]
-	    },
+	    }
 	  }
 	</script>
 	

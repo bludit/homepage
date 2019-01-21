@@ -22,6 +22,39 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="<?php echo DOMAIN ?>/img/favicon.png">
 
+	<!-- Schema.org -->
+	<script type="application/ld+json">
+	  {
+	    "@context": "http://schema.org",
+	    "@type": "Organization",
+	    "name": "<?php l('head title') ?>",
+	    "description": "<?php l('head description') ?>",
+	    "url": "<?php echo $_topbar['website'] ?>",
+	    "sameAs": [
+	      "https://www.facebook.com/bluditcms",
+	      "https://www.youtube.com/bluditcms",
+	      "https://twitter.com/bludit/",
+	      "https://github.com/bludit/"
+	    ],
+	    "image": {
+		"@type": "ImageObject",
+		"url": "https://www.bludit.com/img/bludit-facebook-cards.png",
+		"width": 803,
+		"height": 424
+	    },
+	    "author": {
+		"@type": "Person",
+		"name": "Diego Najar",
+		"url": "https://varlogdiego.com",
+		"sameAs": [
+		    "https://twitter.com/dignajar",
+		    "https://github.com/dignajar/",
+		    "https://www.linkedin.com/in/diegonajar/"
+		]
+	    },
+	  }
+	</script>
+	
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@bludit" />

@@ -41,16 +41,6 @@
 		"url": "https://www.bludit.com/img/bludit-facebook-cards.png",
 		"width": 803,
 		"height": 424
-	    },
-	    "author": {
-		"@type": "Person",
-		"name": "Diego Najar",
-		"url": "https://varlogdiego.com",
-		"sameAs": [
-		    "https://twitter.com/dignajar",
-		    "https://github.com/dignajar/",
-		    "https://www.linkedin.com/in/diegonajar/"
-		]
 	    }
 	  }
 	</script>

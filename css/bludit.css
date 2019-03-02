@@ -70,6 +70,10 @@ img {
 	margin: -1rem auto 1rem auto;
 }
 
+h2.section__title {
+	font-size: 1.17em;
+}
+
 @media (max-width: 575.98px) {
 	.button--primary,
 	.button--secondary {

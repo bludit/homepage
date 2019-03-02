@@ -44,7 +44,7 @@
 	    }
 	  }
 	</script>
-	
+
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@bludit" />
@@ -70,7 +70,7 @@
 	<link rel="alternate" hreflang="<?php echo $hreflang ?>" href="<?php echo $href ?>" />
 	<?php endforeach ?>
 	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
-	
+
 </head>
 <body>
 	<nav>
@@ -104,27 +104,27 @@
 
 		<div class="feature">
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('Flat File') ?></h3>
+				<h2 class="section__title"><?php l('Flat File') ?></h2>
 				<p><?php l('bludit-feature1') ?></p>
 			</div>
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('Themes') ?></h3>
+				<h2 class="section__title"><?php l('Themes') ?></h2>
 				<p><?php l('bludit-feature2') ?></p>
 			</div>
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('Plugins') ?></h3>
+				<h2 class="section__title"><?php l('Plugins') ?></h2>
 				<p><?php l('bludit-feature3') ?></p>
 			</div>
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('SEO friendly') ?></h3>
+				<h2 class="section__title"><?php l('SEO friendly') ?></h2>
 				<p><?php l('bludit-feature4') ?></p>
 			</div>
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('Markdown support') ?></h3>
+				<h2 class="section__title"><?php l('Markdown support') ?></h2>
 				<p><?php l('bludit-feature5') ?></p>
 			</div>
 			<div class="feature__item">
-				<h3 class="section__title"><?php l('GDPR Compliant') ?></h3>
+				<h2 class="section__title"><?php l('GDPR Compliant') ?></h2>
 				<p><?php l('bludit-feature6') ?></p>
 			</div>
 		</div>

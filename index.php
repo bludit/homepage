@@ -92,7 +92,7 @@
 		<p class="hero__description"><?php l('bludit-slogan2') ?></p>
 	</div>
 	<div class="hero__terminal">
-		<img src="<?php echo $_topbar['slider1'] ?>" alt="Bludit image slider" />
+		<img src="<?php echo $_topbar['slider1'] ?>?version=<?php echo VERSION ?>" alt="Bludit image slider" />
 	</div>
 	<div class="wrapper">
 

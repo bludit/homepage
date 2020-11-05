@@ -13,7 +13,7 @@ include('functions.php');
 
 // Language passed via $_GET['l']
 $currentLanguage = 'en';
-$acceptedLanguages = array('en', 'de', 'es', 'ru');
+$acceptedLanguages = array('en', 'de', 'es', 'ru','pt');
 if (isset($_GET['l'])) {
 	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$currentLanguage = $_GET['l'];

@@ -15,3 +15,6 @@ Español:
 
 Русский:
 - https://www.bludit.com/ru/
+
+Рortuguês:
+- https://www.bludit.com/pt/

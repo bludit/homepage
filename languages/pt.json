@@ -1,0 +1,42 @@
+{
+	"demo": "Demo",
+	"documentation": "Documentação",
+	"themes": "Temas",
+	"plugins": "Plugins",
+	"donations": "Doações",
+	"donate": "Doar",
+	"download": "Baixar",
+	"search": "Buscar",
+	"links": "Links",
+	"support": "Suporte",
+	"chat": "Chat",
+	"forum": "Forum",
+	"sponsors": "Patrocinadores",
+	"subscribe": "Se inscrever",
+	"contribute": "Contribua",
+	"enter-email": "Digite o email",
+	"newsletter": "Newsletter",
+	"privacy": "Privacidade",
+	"terms-and-conditions": "Termos e condições",
+
+	"head-title": "Bludit - Flat-File CMS",
+	"head-description": "Bludit é um aplicação web utilizada para a construção de sites ou blogs em segundos. Além de ser gratuito e de código aberto, possui suporte a Markdown.",
+
+	"flat-file": "Flat File",
+	"seo-friendly": "SEO amigável",
+	"markdown-support": "Suporte a Markdown",
+	"gdpr-compliant": "Compatível com GDPR",
+
+	"bludit-slogan1": "Crie seu próprio <b>Website</b> ou <b>Blog</b> em segundos",
+	"bludit-slogan2": "Simples, rápido, seguro, Flat-File CMS",
+
+	"bludit-feature1": "Bludit usa arquivos no formato JSON para armazenar o conteúdo, você não precisa instalar ou configurar um banco de dados.",
+	"bludit-feature2": "Personalize seu site com temas elegantes e interessantes com tecnologia Bludit. Você pode baixar temas do <a href=\"https://themes.bludit.com\" target=\"_blank\">site oficial.</a>",
+	"bludit-feature3": "Estenda a funcionalidade do Bludit com incríveis extensões. Você pode baixar plugins do <a href=\"https://plugins.bludit.com\" target=\"_blank\">site oficial.</a>",
+	"bludit-feature4": "Bludit incorpora todas as ferramentas de SEO para melhorar sua classificação em todos os buscadores e redes sociais.",
+	"bludit-feature5": "Bludit suporta Markdown e código HTML para o conteúdo, também fornece Editor Markdown e Editor WYSIWYG.",
+	"bludit-feature6": "Bludit cuida da segurança e privacidade dos usuários. O Bludit não rastreia ou usa bibliotecas externas, frameworks e outros recursos.",
+
+	"bludit-documentation": "Leia nossa documentação para requisitos, guia de instalação, como fazer e muito mais.",
+	"bludit-support": "Você precisa de suporte? Entre em contato conosco no fórum, bate-papo ou problemas no Github."
+}

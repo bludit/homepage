@@ -1,0 +1,42 @@
+{
+	"demo": "デモ",
+	"documentation": "ドキュメント",
+	"themes": "テーマ",
+	"plugins": "プラグイン",
+	"donations": "寄付",
+	"donate": "寄付",
+	"download": "ダウンロード",
+	"search": "検索",
+	"links": "リンク",
+	"support": "サポート",
+	"chat": "チャット",
+	"forum": "フォーラム",
+	"sponsors": "スポンサー",
+	"subscribe": "購読",
+	"contribute": "貢献",
+	"enter-email": "Eメールを入力",
+	"newsletter": "ニュースレター",
+	"privacy": "プライバシー",
+	"terms-and-conditions": "ご利用条件",
+
+	"head-title": "Bludit - フラットファイルCMS",
+	"head-description": "Bluditは、あなたのWebサイトやブログが秒速で構築できるWebアプリケーションです。そして、完全に自由でオープンソースです。Markdownサポート。",
+
+	"flat-file": "フラットファイル",
+	"seo-friendly": "SEOフレンドリー",
+	"markdown-support": "Markdownサポート",
+	"gdpr-compliant": "GDPR準拠",
+
+	"bludit-slogan1": "自分の<b>Webサイト<\/b>や<b>ブログ<\/b>が秒速で作れる",
+	"bludit-slogan2": "簡単、高速、セキュアなフラットファイルCMS",
+
+	"bludit-feature1": "Bluditは、コンテンツをJSON形式で管理します。データベースのインストールや設定をする必要はありません。",
+	"bludit-feature2": "Bluditのサイトをを美しく、クールなテーマでカスタマイズしましょう。テーマは、<a href=\"https:\/\/themes.bludit.com\" target=\"_blank\">公式サイト<\/a>からダウンロードできます。",
+	"bludit-feature3": "素晴らしいプラグインでBluditに機能を追加しましょう。プラグインは、<a href=\"https:\/\/plugins.bludit.com\" target=\"_blank\">公式サイト<\/a>からダウンロードできます。",
+	"bludit-feature4": "Bluditには、すべての検索エンジンとSNSでサイトランキングを上げるためのSEOツールが含まれています。",
+	"bludit-feature5": "Bluditのコンテンツは、MarkdownとHTMLをサポートしています。また、MarkdownエディタとWYSIWYGエディタも提供しています。",
+	"bludit-feature6": "Bluditは、ユーザーのセキュリティとプライバシー保護にも配慮しています。Bluditはユーザーを追跡しませんし、外部ライブラリやフレームワーク、その他リソースも使用していません。",
+
+	"bludit-documentation": "必要要件やインストールガイド、How Toなどについては、ドキュメントをお読みください。",
+	"bludit-support": "サポートが必要ですか? フォーラムやチャット、Github Issueから解決しましょう。"
+}

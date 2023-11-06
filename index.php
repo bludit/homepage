@@ -137,7 +137,7 @@
 		<div class="callout">
 			<p><?php l('bludit-support') ?></p>
 			<a href="https://forum.bludit.org" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
-			<a href="https://gitter.im/bludit/support" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Chat') ?></a>
+			<a href="https://discord.gg/EPvVY67Zbh" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Discord') ?></a>
 			<a href="https://github.com/bludit/bludit/issues" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
 		</div>
 
@@ -161,24 +161,5 @@
 	<?php
 		js('scribbler.js');
 	?>
-
-	<!--
-		Yandex.Metrika counter
-		Masking IP addresses enabled for GDPR
-	-->
-	<script type="text/javascript" >
-	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-	   ym(51941300, "init", {
-		id:51941300,
-		clickmap:true,
-		trackLinks:true,
-		accurateTrackBounce:true
-	   });
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/51941300" style="position:absolute; left:-9999px;" alt="Yandex Metrika" /></div></noscript>
-
 </body>
 </html>

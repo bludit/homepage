@@ -137,7 +137,7 @@
 		<div class="callout">
 			<p><?php l('bludit-support') ?></p>
 			<a href="https://forum.bludit.org" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
-			<a href="https://discord.gg/EPvVY67Zbh" class="button--secondary"><i class="fa fa-commenting-o"></i> <?php l('Discord') ?></a>
+			<a href="https://discord.gg/EPvVY67Zbh" class="button--secondary"><i class="fa fa-commenting-o"></i> Discord</a>
 			<a href="https://github.com/bludit/bludit/issues" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
 		</div>
 

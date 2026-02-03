@@ -17,10 +17,10 @@
 	"enter-email": "Eメールを入力",
 	"newsletter": "ニュースレター",
 	"privacy": "プライバシー",
-	"terms-and-conditions": "ご利用条件",
+	"terms-and-conditions": "利用規約",
 
 	"head-title": "Bludit - フラットファイルCMS",
-	"head-description": "Bluditは、あなたのWebサイトやブログが秒速で構築できるWebアプリケーションです。そして、完全に自由でオープンソースです。Markdownサポート。",
+	"head-description": "Bluditは、Webサイトやブログを数秒で構築できるWebアプリケーションです。無料でオープンソース、Markdownにも対応しています。",
 
 	"flat-file": "フラットファイル",
 	"seo-friendly": "SEOフレンドリー",
@@ -31,12 +31,14 @@
 	"bludit-slogan2": "簡単、高速、セキュアなフラットファイルCMS",
 
 	"bludit-feature1": "Bluditは、コンテンツをJSON形式で管理します。データベースのインストールや設定をする必要はありません。",
-	"bludit-feature2": "Bluditのサイトをを美しく、クールなテーマでカスタマイズしましょう。テーマは、<a href=\"https:\/\/themes.bludit.com\" target=\"_blank\">公式サイト<\/a>からダウンロードできます。",
+	"bludit-feature2": "Bluditのサイトを美しくクールなテーマでカスタマイズしましょう。テーマは、<a href=\"https:\/\/themes.bludit.com\" target=\"_blank\">公式サイト<\/a>からダウンロードできます。",
 	"bludit-feature3": "素晴らしいプラグインでBluditに機能を追加しましょう。プラグインは、<a href=\"https:\/\/plugins.bludit.com\" target=\"_blank\">公式サイト<\/a>からダウンロードできます。",
-	"bludit-feature4": "Bluditには、すべての検索エンジンとSNSでサイトランキングを上げるためのSEOツールが含まれています。",
-	"bludit-feature5": "Bluditのコンテンツは、MarkdownとHTMLをサポートしています。また、MarkdownエディタとWYSIWYGエディタも提供しています。",
-	"bludit-feature6": "Bluditは、ユーザーのセキュリティとプライバシー保護にも配慮しています。Bluditはユーザーを追跡しませんし、外部ライブラリやフレームワーク、その他リソースも使用していません。",
+	"bludit-feature4": "Bluditには、検索エンジン向けのSEOツールが含まれています。",
+	"bludit-feature5": "Bluditのコンテンツは、MarkdownとHTMLをサポートしています。MarkdownエディタとWYSIWYGエディタも提供しています。",
+	"bludit-feature6": "Bluditはプライバシーを重視し、訪問者を追跡しません。",
 
 	"bludit-documentation": "必要要件やインストールガイド、How Toなどについては、ドキュメントをお読みください。",
-	"bludit-support": "サポートが必要ですか? フォーラムやチャット、Github Issueから解決しましょう。"
+	"bludit-support": "サポートが必要ですか? フォーラムやGitHub Issueでお問い合わせください。",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
 }

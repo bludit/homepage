@@ -1,16 +1,12 @@
-a {
-	text-decoration: underline;
-}
-
 img {
 	max-width: 100%;
 }
 .footer {
 	text-align: left;
-	background-color: #717171;
-	padding: 2rem;
+	background-color: var(--primary-color);
+	padding: 2.5rem;
 	color: white;
-	font-size: 0.9em;
+	font-size: 0.95em;
 }
 
 .footer a {
@@ -19,38 +15,7 @@ img {
 }
 
 .hero {
-	padding: 2rem 0 15rem 0;
-}
-
-.hero__terminal {
-  width: 60%;
-  margin: -15rem auto 3rem auto;
-  text-align: left;
-  color: white;
-  padding: 0;
-  border-radius: 4px;
-  background-color: #fff;
-  animation: fadeUp 2s;
-  box-shadow: 0px 12px 36.8px 9.2px rgba(0, 0, 0, 0.1);
-
-}
-
-.button--secondary {
-  padding: 10px 22px;
-  border: 1px solid var(--primary-color);
-  transition: all 0.5s ease-out;
-  background: #fbfbfb;
-  text-decoration: none;
-}
-
-.button--secondary:hover {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-}
-
-.wrapper-tweets {
-	width: 30%;
-	min-width: 350px;
+	padding: 3rem 0 14rem 0;
 }
 
 .menu {
@@ -67,7 +32,7 @@ img {
 }
 
 .hero__description {
-	margin: -1rem auto 1rem auto;
+	margin: -0.5rem auto 1rem auto;
 }
 
 h2.section__title {
@@ -85,9 +50,5 @@ h2.section__title {
 	.hero__terminal {
 		width: 90%;
 		min-height: 213px;
-	}
-
-	.changelog {
-		display: none !important;
 	}
 }

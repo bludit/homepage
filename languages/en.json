@@ -17,26 +17,28 @@
 	"enter-email": "Enter email",
 	"newsletter": "Newsletter",
 	"privacy": "Privacy",
-	"terms-and-conditions": "Terms and conditions",
+	"terms-and-conditions": "Terms and Conditions",
 
 	"head-title": "Bludit - Flat-File CMS",
-	"head-description": "Bludit is a web application to build your own website or blog in seconds, it's completely free and open source. Markdown support.",
+	"head-description": "Bludit is a web application to build your own website or blog in seconds. It's free, open source, and supports Markdown.",
 
 	"flat-file": "Flat File",
-	"seo-friendly": "SEO friendly",
+	"seo-friendly": "SEO-friendly",
 	"markdown-support": "Markdown support",
-	"gdpr-compliant": "GDPR Compliant",
+	"gdpr-compliant": "GDPR compliant",
 
 	"bludit-slogan1": "Create your own <b>Website</b> or <b>Blog</b> in seconds",
 	"bludit-slogan2": "Simple, Fast, Secure, Flat-File CMS",
 
-	"bludit-feature1": "Bludit uses files in JSON format to store the content, you don't need to install or configure a database.",
-	"bludit-feature2": "Customize your Bludit powered site with beautiful and cool themes. You can download themes from the <a href=\"https://themes.bludit.com\" target=\"_blank\">official site.</a>",
+	"bludit-feature1": "Bludit uses files in JSON format to store the content, so you don't need to install or configure a database.",
+	"bludit-feature2": "Customize your Bludit-powered site with beautiful themes. You can download themes from the <a href=\"https://themes.bludit.com\" target=\"_blank\">official site.</a>",
 	"bludit-feature3": "Extend Bludit's functionality with amazing plugins. You can download plugins from the <a href=\"https://plugins.bludit.com\" target=\"_blank\">official site.</a>",
-	"bludit-feature4": "Bludit incorporates all the SEO tools to improve your ranking in all the search engines and social networks.",
-	"bludit-feature5": "Bludit supports Markdown and HTML code for the content, also provide Markdown Editor and WYSIWYG Editor.",
-	"bludit-feature6": "Bludit takes care of the security and privacy of the users. Bludit doesn't track or uses external libraries, frameworks and other resources.",
+	"bludit-feature4": "Bludit includes built-in SEO tools to improve your ranking across search engines.",
+	"bludit-feature5": "Bludit supports Markdown and HTML for content, and provides both a Markdown editor and a WYSIWYG editor.",
+	"bludit-feature6": "Bludit is privacy-first and doesn't track visitors.",
 
-	"bludit-documentation": "Read our documentation for requirements, installation guide, how to's and more.",
-	"bludit-support": "Do you need support? Reach us in the forum, chat or Github issues."
+	"bludit-documentation": "Read our documentation for requirements, installation guides, how-to's, and more.",
+	"bludit-support": "Need help? Reach us in the forum or on GitHub issues.",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
 }

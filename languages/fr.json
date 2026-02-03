@@ -1,0 +1,44 @@
+{
+	"demo": "Démo",
+	"documentation": "Documentation",
+	"themes": "Thèmes",
+	"plugins": "Plugins",
+	"donations": "Dons",
+	"donate": "Faire un don",
+	"download": "Télécharger",
+	"search": "Rechercher",
+	"links": "Liens",
+	"support": "Support",
+	"chat": "Chat",
+	"forum": "Forum",
+	"sponsors": "Sponsors",
+	"subscribe": "S'abonner",
+	"contribute": "Contribuer",
+	"enter-email": "Saisissez votre e-mail",
+	"newsletter": "Newsletter",
+	"privacy": "Confidentialité",
+	"terms-and-conditions": "Conditions générales",
+
+	"head-title": "Bludit - CMS en fichiers plats",
+	"head-description": "Bludit est une application web pour créer votre site ou blog en quelques secondes. Gratuit, open source et compatible Markdown.",
+
+	"flat-file": "Fichiers plats",
+	"seo-friendly": "Optimisé pour le SEO",
+	"markdown-support": "Prise en charge de Markdown",
+	"gdpr-compliant": "Conforme au RGPD",
+
+	"bludit-slogan1": "Créez votre <b>site</b> ou <b>blog</b> en quelques secondes",
+	"bludit-slogan2": "Simple, rapide, sécurisé, CMS en fichiers plats",
+
+	"bludit-feature1": "Bludit stocke le contenu dans des fichiers JSON, sans base de données à installer.",
+	"bludit-feature2": "Personnalisez votre site Bludit avec de beaux thèmes. Téléchargez-les depuis le <a href=\"https://themes.bludit.com\" target=\"_blank\">site officiel.</a>",
+	"bludit-feature3": "Étendez Bludit avec des plugins. Téléchargez-les depuis le <a href=\"https://plugins.bludit.com\" target=\"_blank\">site officiel.</a>",
+	"bludit-feature4": "Bludit inclut des outils SEO pour améliorer votre classement dans les moteurs de recherche.",
+	"bludit-feature5": "Bludit prend en charge Markdown et HTML, avec éditeur Markdown et éditeur WYSIWYG.",
+	"bludit-feature6": "Bludit respecte la vie privée et ne suit pas les visiteurs.",
+
+	"bludit-documentation": "Lisez la documentation pour les prérequis, le guide d'installation et plus.",
+	"bludit-support": "Besoin d'aide ? Contactez-nous via le forum ou GitHub Issues.",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
+}

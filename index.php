@@ -1,9 +1,10 @@
 <?php define('BLUDIT', true); define('PATH_ROOT', __DIR__.DIRECTORY_SEPARATOR); include('php/config.php'); ?>
 <!DOCTYPE html>
-<html lang="<?php echo $currentLanguage ?>">
+<html lang="<?php echo $currentLanguage ?>" dir="<?php echo $languageDirection ?>">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
 	<meta name="description" content="<?php l('head description') ?>">
 	<meta name="title" content="<?php l('head title') ?>">
 	<title><?php l('head title') ?></title>
@@ -11,7 +12,7 @@
 	<meta name="author" content="Diego Najar">
 
 	<!-- CSS files -->
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<?php
 		css('scribbler-global.css');
@@ -25,15 +26,12 @@
 	<!-- Schema.org -->
 	<script type="application/ld+json">
 	  {
-	    "@context": "http://schema.org",
+	    "@context": "https://schema.org",
 	    "@type": "Organization",
 	    "name": "<?php l('head title') ?>",
 	    "description": "<?php l('head description') ?>",
 	    "url": "<?php echo $_topbar['website'] ?>",
 	    "sameAs": [
-	      "https://www.facebook.com/bluditcms",
-	      "https://www.youtube.com/bluditcms",
-	      "https://twitter.com/bludit/",
 	      "https://github.com/bludit/"
 	    ],
 	    "image": {
@@ -44,13 +42,6 @@
 	    }
 	  }
 	</script>
-
-	<!-- Twitter Cards -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@bludit" />
-	<meta name="twitter:title" content="<?php l('head title') ?>" />
-	<meta name="twitter:description" content="<?php l('head description') ?>" />
-	<meta name="twitter:image" content="<?php echo DEFAULT_TWITTER_CARD ?>" />
 
 	<!-- Open Graph -->
 	<meta property="og:locale" content="<?php echo $currentLanguage ?>" />
@@ -69,40 +60,46 @@
 	<?php foreach ($_hreflang as $hreflang=>$href): ?>
 	<link rel="alternate" hreflang="<?php echo $hreflang ?>" href="<?php echo $href ?>" />
 	<?php endforeach ?>
-	<link rel=”alternate” hreflang=”x-default” href=”https://www.bludit.com” />
+	<link rel="alternate" hreflang="x-default" href="https://www.bludit.com" />
 
 </head>
 <body>
-	<nav>
-		<div class="logo"></div>
-		<ul class="menu">
-			<li><div class="menu__item toggle"><span></span></div></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark" target="_blank"><?php l('Themes') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark" target="_blank"><?php l('Plugins') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark" target="_blank"><?php l('Documentation') ?></a></li>
-			<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark" target="_blank">Bludit PRO</a></li>
-			<li class="menu__item"><a href="https://www.facebook.com/bluditcms" class="link link--dark" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			<li class="menu__item"><a href="https://twitter.com/bludit/" class="link link--dark" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			<li class="menu__item"><a href="https://github.com/bludit/bludit" class="link link--dark" target="_blank"><i class="fa fa-github"></i></a></li>
-		</ul>
-	</nav>
-	<div class="hero">
-		<h1 class="hero__title">Bludit</h1>
-		<p class="hero__description"><?php l('bludit-slogan1') ?></p>
-		<p class="hero__description"><?php l('bludit-slogan2') ?></p>
-	</div>
-	<div class="hero__terminal">
-		<img src="<?php echo $_topbar['slider1'] ?>?version=<?php echo VERSION ?>" alt="Bludit image slider" />
-	</div>
-	<div class="wrapper">
+	<header class="site-header">
+		<nav>
+			<ul class="menu">
+				<li><div class="menu__item toggle"><span></span></div></li>
+				<li class="menu__item"><a href="<?php echo $_topbar['themes'] ?>" class="link link--dark" target="_blank"><?php l('Themes') ?></a></li>
+				<li class="menu__item"><a href="<?php echo $_topbar['plugins'] ?>" class="link link--dark" target="_blank"><?php l('Plugins') ?></a></li>
+				<li class="menu__item"><a href="<?php echo $_topbar['documentation'] ?>" class="link link--dark" target="_blank"><?php l('Documentation') ?></a></li>
+				<li class="menu__item"><a href="<?php echo $_topbar['pro'] ?>" class="link link--dark" target="_blank"><?php l('bludit-pro') ?></a></li>
+				<li class="menu__item"><a href="https://github.com/bludit/bludit" class="link link--dark" target="_blank" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero" aria-label="Bludit introduction">
+			<h1 class="hero__title hero__title--brand">
+				<img class="hero__logo" src="<?php echo DOMAIN ?>/img/logo.svg" alt="Bludit" />
+				<span>Bludit</span>
+			</h1>
+			<p class="hero__description"><?php l('bludit-slogan1') ?></p>
+			<p class="hero__description"><?php l('bludit-slogan2') ?></p>
+		</section>
+		<div class="hero__terminal">
+			<div class="hero__slides" aria-label="Bludit screenshots" aria-live="polite">
+				<img class="hero__slide is-active" src="/img/screenshot1.png" alt="Bludit screenshot 1" />
+				<img class="hero__slide" src="/img/screenshot2.png" alt="Bludit screenshot 2" />
+				<img class="hero__slide" src="/img/screenshot3.png" alt="Bludit screenshot 3" />
+			</div>
+		</div>
+		<div class="wrapper">
 
 		<div class="callout">
 			<a href="<?php echo $version['stable']['downloadLink'] ?>" class="button--primary button--download"><i class="fa fa-download"></i> <?php l('Download') ?> v<?php echo $version['stable']['version'] ?></a>
 			<a href="https://demo.bludit.com" target="_blank" class="button--primary button--download"><i class="fa fa-desktop"></i> <?php l('Demo') ?></a>
-			<!-- <div style="margin-top: 10px; font-size: 0.9em;"><a href="https://github.com/bludit/bludit/archive/v3.0.0-rc-3.zip"><?php l('Download') ?> v3.0.0-rc3</a></div> -->
 		</div>
 
-		<div class="feature">
+		<section class="feature" aria-label="Bludit features">
 			<div class="feature__item">
 				<h2 class="section__title"><?php l('Flat File') ?></h2>
 				<p><?php l('bludit-feature1') ?></p>
@@ -127,7 +124,7 @@
 				<h2 class="section__title"><?php l('GDPR Compliant') ?></h2>
 				<p><?php l('bludit-feature6') ?></p>
 			</div>
-		</div>
+		</section>
 
 		<div class="callout">
 			<p><?php l('bludit-documentation') ?></p>
@@ -137,26 +134,25 @@
 		<div class="callout">
 			<p><?php l('bludit-support') ?></p>
 			<a href="https://forum.bludit.org" class="button--secondary"><i class="fa fa-support"></i> <?php l('Forum') ?></a>
-			<a href="https://discord.gg/EPvVY67Zbh" class="button--secondary"><i class="fa fa-commenting-o"></i> Discord</a>
-			<a href="https://github.com/bludit/bludit/issues" class="button--secondary"><i class="fa fa-github"></i> Github Issues</a>
+			<a href="https://github.com/bludit/bludit/issues" class="button--secondary"><i class="fa fa-github"></i> <?php l('github-issues') ?></a>
 		</div>
 
-	</div>
-	<div class="changelog">
-		<div class="wrapper wrapper-tweets">
-			<a data-height="500" class="twitter-timeline" href="https://twitter.com/bludit?ref_src=twsrc%5Etfw">Tweets by bludit</a>
-			<script async src="https://platform.twitter.com/widgets.js"></script>
 		</div>
-	</div>
+	</main>
 	<footer class="footer">
 		<div>
 			<a href="https://www.bludit.com">English</a>
-			<a href="https://www.bludit.com/de/">Deutsch</a>
 			<a href="https://www.bludit.com/es/">Español</a>
-			<a href="https://www.bludit.com/ru/">Русский</a>
+			<a href="https://www.bludit.com/ar/">العربية</a>
+			<a href="https://www.bludit.com/zh/">中文</a>
+			<a href="https://www.bludit.com/fr/">Français</a>
+			<a href="https://www.bludit.com/de/">Deutsch</a>
+			<a href="https://www.bludit.com/hi/">हिंदी</a>
 			<a href="https://www.bludit.com/ja/">日本語</a>
+			<a href="https://www.bludit.com/pt/">Português</a>
+			<a href="https://www.bludit.com/ru/">Русский</a>
 		</div>
-		<div>Bludit © 2015-<?php echo date('y') ?>. All Rights Reserved.</div>
+		<div>Bludit © 2015-<?php echo date('Y') ?>. All Rights Reserved.</div>
 	</footer>
 	<?php
 		js('scribbler.js');

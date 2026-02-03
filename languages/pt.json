@@ -1,0 +1,44 @@
+{
+	"demo": "Demo",
+	"documentation": "Documentação",
+	"themes": "Temas",
+	"plugins": "Plugins",
+	"donations": "Doações",
+	"donate": "Doar",
+	"download": "Download",
+	"search": "Pesquisar",
+	"links": "Links",
+	"support": "Suporte",
+	"chat": "Chat",
+	"forum": "Fórum",
+	"sponsors": "Patrocinadores",
+	"subscribe": "Inscrever-se",
+	"contribute": "Contribuir",
+	"enter-email": "Digite o e-mail",
+	"newsletter": "Newsletter",
+	"privacy": "Privacidade",
+	"terms-and-conditions": "Termos e condições",
+
+	"head-title": "Bludit - CMS de arquivos",
+	"head-description": "Bludit é uma aplicação web para criar seu site ou blog em segundos. Gratuita, open source e com suporte a Markdown.",
+
+	"flat-file": "Arquivo",
+	"seo-friendly": "Amigável ao SEO",
+	"markdown-support": "Suporte a Markdown",
+	"gdpr-compliant": "Compatível com GDPR",
+
+	"bludit-slogan1": "Crie seu <b>Site</b> ou <b>Blog</b> em segundos",
+	"bludit-slogan2": "Simples, rápido, seguro, CMS em arquivos",
+
+	"bludit-feature1": "Bludit usa arquivos JSON para armazenar o conteúdo, sem necessidade de banco de dados.",
+	"bludit-feature2": "Personalize seu site com belos temas. Você pode baixar temas do <a href=\"https://themes.bludit.com\" target=\"_blank\">site oficial.</a>",
+	"bludit-feature3": "Amplie o Bludit com plugins incríveis. Você pode baixar plugins do <a href=\"https://plugins.bludit.com\" target=\"_blank\">site oficial.</a>",
+	"bludit-feature4": "Bludit inclui ferramentas de SEO para melhorar seu ranking nos buscadores.",
+	"bludit-feature5": "Bludit suporta Markdown e HTML para conteúdo, e oferece editor Markdown e editor WYSIWYG.",
+	"bludit-feature6": "Bludit prioriza a privacidade e não rastreia visitantes.",
+
+	"bludit-documentation": "Leia nossa documentação para requisitos, guia de instalação e mais.",
+	"bludit-support": "Precisa de ajuda? Fale com a gente no fórum ou no GitHub Issues.",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
+}

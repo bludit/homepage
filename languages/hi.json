@@ -1,0 +1,44 @@
+{
+	"demo": "डेमो",
+	"documentation": "दस्तावेज़",
+	"themes": "थीम्स",
+	"plugins": "प्लगइन्स",
+	"donations": "दान",
+	"donate": "दान करें",
+	"download": "डाउनलोड",
+	"search": "खोज",
+	"links": "लिंक",
+	"support": "सहायता",
+	"chat": "चैट",
+	"forum": "फ़ोरम",
+	"sponsors": "प्रायोजक",
+	"subscribe": "सब्सक्राइब",
+	"contribute": "योगदान दें",
+	"enter-email": "ईमेल दर्ज करें",
+	"newsletter": "न्यूज़लेटर",
+	"privacy": "गोपनीयता",
+	"terms-and-conditions": "नियम और शर्तें",
+
+	"head-title": "Bludit - फ्लैट-फाइल CMS",
+	"head-description": "Bludit एक वेब ऐप है जो कुछ सेकंड में वेबसाइट या ब्लॉग बनाता है। यह मुफ्त, ओपन सोर्स है और Markdown सपोर्ट करता है।",
+
+	"flat-file": "फ्लैट-फाइल",
+	"seo-friendly": "SEO अनुकूल",
+	"markdown-support": "Markdown समर्थन",
+	"gdpr-compliant": "GDPR अनुरूप",
+
+	"bludit-slogan1": "कुछ सेकंड में अपना <b>वेबसाइट</b> या <b>ब्लॉग</b> बनाएं",
+	"bludit-slogan2": "सरल, तेज़, सुरक्षित, फ्लैट-फाइल CMS",
+
+	"bludit-feature1": "Bludit JSON फाइलों में कंटेंट स्टोर करता है, इसलिए डेटाबेस इंस्टॉल या कॉन्फ़िगर करने की जरूरत नहीं है।",
+	"bludit-feature2": "खूबसूरत थीम्स से अपने Bludit साइट को कस्टमाइज़ करें। थीम्स <a href=\"https://themes.bludit.com\" target=\"_blank\">आधिकारिक साइट</a> से डाउनलोड करें।",
+	"bludit-feature3": "शानदार प्लगइन्स से Bludit की क्षमता बढ़ाएं। प्लगइन्स <a href=\"https://plugins.bludit.com\" target=\"_blank\">आधिकारिक साइट</a> से डाउनलोड करें।",
+	"bludit-feature4": "Bludit में SEO टूल्स बिल्ट-इन हैं जो सर्च इंजनों में रैंकिंग सुधारते हैं।",
+	"bludit-feature5": "Bludit Markdown और HTML सपोर्ट करता है, और Markdown एडिटर व WYSIWYG एडिटर देता है।",
+	"bludit-feature6": "Bludit प्राइवेसी को प्राथमिकता देता है और विज़िटर्स को ट्रैक नहीं करता।",
+
+	"bludit-documentation": "आवश्यकताएँ, इंस्टॉलेशन गाइड और अधिक के लिए हमारी डॉक्यूमेंटेशन पढ़ें।",
+	"bludit-support": "मदद चाहिए? फ़ोरम या GitHub Issues पर संपर्क करें।",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
+}

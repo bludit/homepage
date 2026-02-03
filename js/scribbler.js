@@ -84,3 +84,16 @@ window.addEventListener('load', function(){
   }
   icon.addEventListener('click', showNav);
 });
+
+window.addEventListener('load', function () {
+  var slides = document.querySelectorAll('.hero__slide');
+  if (!slides.length) {
+    return;
+  }
+  var index = 0;
+  setInterval(function () {
+    slides[index].classList.remove('is-active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('is-active');
+  }, 2500);
+});

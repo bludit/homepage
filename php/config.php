@@ -4,7 +4,6 @@ define('CHARSET', 'UTF-8');
 define('DOMAIN', 'https://www.bludit.com');
 define('VERSION', '3.9.1');
 
-define('DEFAULT_TWITTER_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-twitter-cards.png');
 define('DEFAULT_FACEBOOK_CARD', 'https://df6m0u2ovo2fu.cloudfront.net/images/bludit-facebook-cards.png');
 define('SCREENSHOT', 'https://df6m0u2ovo2fu.cloudfront.net/images/screenshotv2.png');
 define('NEWSLETTER', 'https://www.bludit.com/newsletter.php');
@@ -13,7 +12,7 @@ include('functions.php');
 
 // Language passed via $_GET['l']
 $currentLanguage = 'en';
-$acceptedLanguages = array('en', 'de', 'es', 'ru', 'ja');
+$acceptedLanguages = array('en', 'es', 'ar', 'zh', 'fr', 'de', 'hi', 'ja', 'pt', 'ru');
 if (isset($_GET['l'])) {
 	if (in_array($_GET['l'], $acceptedLanguages)) {
 		$currentLanguage = $_GET['l'];
@@ -23,8 +22,12 @@ if (isset($_GET['l'])) {
 $json = file_get_contents(PATH_ROOT.'languages'.DS.$currentLanguage.'.json');
 $languageArray = json_decode($json, true);
 
+$languageDirection = ($currentLanguage === 'ar') ? 'rtl' : 'ltr';
+
 // Top bar links
 $_topbar = array();
+$sliderLanguage = in_array($currentLanguage, array('de', 'es', 'ru', 'ja', 'en')) ? $currentLanguage : 'en';
+
 if ($currentLanguage !== "en") {
 	$_topbar = array(
 		'documentation'=>'https://docs.bludit.com',
@@ -32,7 +35,7 @@ if ($currentLanguage !== "en") {
 		'plugins'=>'https://plugins.bludit.com/'.$currentLanguage.'/',
 		'pro'=>'https://pro.bludit.com/'.$currentLanguage.'/',
 		'website'=>DOMAIN.'/'.$currentLanguage.'/',
-		'slider1'=>'https://www.bludit.com/img/bludit_1_'.$currentLanguage.'.png'
+		'slider1'=>'https://www.bludit.com/img/bludit_1_'.$sliderLanguage.'.png'
 	);
 } else {
 	$_topbar = array(
@@ -57,8 +60,8 @@ foreach ($tmpLanguages as $lang) {
 if (file_exists('/www/version.bludit.com/index.php')) {
         include('/www/version.bludit.com/index.php');
 } else {
-        $version['stable']['version'] = "1.6.2";
-        $version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v1.6.2.zip";
+	$version['stable']['version'] = VERSION;
+	$version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v".VERSION.".zip";
 	$version['beta']['changelogLink'] = 's';
 	$version['beta']['version'] = '2.0 Beta 1';
 }

@@ -1,0 +1,44 @@
+{
+	"demo": "تجربة",
+	"documentation": "التوثيق",
+	"themes": "السمات",
+	"plugins": "الإضافات",
+	"donations": "التبرعات",
+	"donate": "تبرّع",
+	"download": "تنزيل",
+	"search": "بحث",
+	"links": "روابط",
+	"support": "الدعم",
+	"chat": "الدردشة",
+	"forum": "المنتدى",
+	"sponsors": "الرعاة",
+	"subscribe": "اشترك",
+	"contribute": "ساهم",
+	"enter-email": "أدخل البريد الإلكتروني",
+	"newsletter": "النشرة البريدية",
+	"privacy": "الخصوصية",
+	"terms-and-conditions": "الشروط والأحكام",
+
+	"head-title": "Bludit - نظام إدارة محتوى بدون قاعدة بيانات",
+	"head-description": "Bludit هو تطبيق ويب لإنشاء موقعك أو مدونتك في ثوانٍ. مجاني ومفتوح المصدر ويدعم Markdown.",
+
+	"flat-file": "بدون قاعدة بيانات",
+	"seo-friendly": "ملائم لمحركات البحث",
+	"markdown-support": "يدعم Markdown",
+	"gdpr-compliant": "متوافق مع GDPR",
+
+	"bludit-slogan1": "أنشئ <b>موقعك</b> أو <b>مدونتك</b> في ثوانٍ",
+	"bludit-slogan2": "بسيط، سريع، آمن، نظام إدارة محتوى بدون قاعدة بيانات",
+
+	"bludit-feature1": "يخزن Bludit المحتوى في ملفات بصيغة JSON، لذلك لا تحتاج إلى تثبيت قاعدة بيانات أو إعدادها.",
+	"bludit-feature2": "خصّص موقعك المستند إلى Bludit بسمات جميلة. يمكنك تنزيل السمات من <a href=\"https://themes.bludit.com\" target=\"_blank\">الموقع الرسمي.</a>",
+	"bludit-feature3": "وسّع وظائف Bludit بإضافات رائعة. يمكنك تنزيل الإضافات من <a href=\"https://plugins.bludit.com\" target=\"_blank\">الموقع الرسمي.</a>",
+	"bludit-feature4": "يتضمن Bludit أدوات SEO مدمجة لتحسين ترتيبك في محركات البحث.",
+	"bludit-feature5": "يدعم Bludit Markdown وHTML للمحتوى، ويوفر محرر Markdown ومحرر WYSIWYG.",
+	"bludit-feature6": "Bludit يضع الخصوصية أولًا ولا يتتبع الزوار.",
+
+	"bludit-documentation": "اقرأ وثائقنا لمعرفة المتطلبات ودليل التثبيت والمزيد.",
+	"bludit-support": "هل تحتاج مساعدة؟ تواصل معنا عبر المنتدى أو عبر GitHub Issues.",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
+}

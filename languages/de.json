@@ -17,26 +17,28 @@
 	"enter-email": "E-Mail-Adresse",
 	"newsletter": "Newsletter",
 	"privacy": "Datenschutz",
-	"terms-and-conditions": "Terms and conditions",
+	"terms-and-conditions": "Allgemeine Gesch&auml;ftsbedingungen",
 
 	"head-title": "Bludit - Flat-File CMS",
-	"head-description": "Bludit ist eine Web-Anwendung, mit der Du schnell und einfach eine eigene Website oder einen eigenen Blog einrichten kannst. Sie ist völlig kostenlos und Open Source.",
+	"head-description": "Bludit ist eine Web-Anwendung, mit der du in Sekunden eine eigene Website oder einen Blog erstellen kannst. Kostenlos, Open Source und mit Markdown-Unterst&uuml;tzung.",
 
 	"flat-file": "Flat-File",
-	"seo-friendly": "SEO",
+	"seo-friendly": "SEO-freundlich",
 	"markdown-support": "Markdown",
-	"gdpr-compliant": "DSGVO",
+	"gdpr-compliant": "DSGVO-konform",
 
 	"bludit-slogan1": "Richte in Sekunden deine <b>Website</b> oder deinen <b>Blog</b> ein.",
 	"bludit-slogan2": "Das einfache, schnelle und flexible CMS.",
 
-	"bludit-feature1": "Bludit speichert die Inhalte in Dateien des Formats JSON. Du musst keine Datenbank einrichten und konfigurieren.",
-	"bludit-feature2": "F&uuml;r deine Website stehen sch&ouml;ne und coole Themes zu Verf&uuml;gung, die du von der <a href=\"https://themes.bludit.com/de/\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
+	"bludit-feature1": "Bludit speichert die Inhalte in Dateien des Formats JSON. Du musst keine Datenbank einrichten oder konfigurieren.",
+	"bludit-feature2": "F&uuml;r deine Website stehen sch&ouml;ne Themes zur Verf&uuml;gung, die du von der <a href=\"https://themes.bludit.com/de/\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
 	"bludit-feature3": "F&uuml;r die Erweiterung mit Funktionen gibt es tolle Plugins, die du von der <a href=\"https://plugins.bludit.com/de/\" target=\"_blank\">offiziellen Website</a> herunterladen kannst.",
-	"bludit-feature4": "Bludit enth&auml;lt alle Tools, mit denen das Ranking bei Suchmaschinen und Ver&ouml;ffentlichen in sozialen Netzwerken optimiert werden kann.",
+	"bludit-feature4": "Bludit enth&auml;lt SEO-Tools, die dein Ranking in Suchmaschinen verbessern.",
 	"bludit-feature5": "Bludit unterst&uuml;tzt Markdown und HTML-Code. Du kannst wahlweise einen Markdown- oder einen WYSIWYG-Editor verwenden.",
-	"bludit-feature6": "Bludit nimmt den Datenschutz und die Sicherheit ernst. Es speichert keine Daten von Besuchern und verwendet keine externe Dienste.",
+	"bludit-feature6": "Bludit ist datenschutzfreundlich und trackt keine Besucher.",
 
 	"bludit-documentation": "Lies unsere Dokumentation mit Anleitungen zur Einrichtung, zum Gebrauch und zu vielem mehr.",
-	"bludit-support": "Ben&ouml;tigst du Hilfe? Du kannst im Forum, im Chat oder auf GitHub Fragen stellen."
+	"bludit-support": "Ben&ouml;tigst du Hilfe? Schreib im Forum oder auf GitHub Issues.",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
 }

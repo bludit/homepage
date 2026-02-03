@@ -1,0 +1,44 @@
+{
+	"demo": "演示",
+	"documentation": "文档",
+	"themes": "主题",
+	"plugins": "插件",
+	"donations": "捐赠",
+	"donate": "捐赠",
+	"download": "下载",
+	"search": "搜索",
+	"links": "链接",
+	"support": "支持",
+	"chat": "聊天",
+	"forum": "论坛",
+	"sponsors": "赞助商",
+	"subscribe": "订阅",
+	"contribute": "贡献",
+	"enter-email": "输入邮箱",
+	"newsletter": "新闻通讯",
+	"privacy": "隐私",
+	"terms-and-conditions": "条款与条件",
+
+	"head-title": "Bludit - 纯文件 CMS",
+	"head-description": "Bludit 是一个用于在几秒内创建网站或博客的 Web 应用。免费、开源，并支持 Markdown。",
+
+	"flat-file": "纯文件",
+	"seo-friendly": "SEO 友好",
+	"markdown-support": "Markdown 支持",
+	"gdpr-compliant": "符合 GDPR",
+
+	"bludit-slogan1": "在几秒内创建自己的<b>网站</b>或<b>博客</b>",
+	"bludit-slogan2": "简单、快速、安全的纯文件 CMS",
+
+	"bludit-feature1": "Bludit 使用 JSON 文件存储内容，无需安装或配置数据库。",
+	"bludit-feature2": "使用漂亮的主题自定义 Bludit 网站。可从<a href=\"https://themes.bludit.com\" target=\"_blank\">官方网站</a>下载主题。",
+	"bludit-feature3": "通过精彩插件扩展 Bludit 功能。可从<a href=\"https://plugins.bludit.com\" target=\"_blank\">官方网站</a>下载插件。",
+	"bludit-feature4": "Bludit 内置 SEO 工具，提升搜索引擎排名。",
+	"bludit-feature5": "Bludit 支持 Markdown 与 HTML，并提供 Markdown 编辑器与可视化编辑器。",
+	"bludit-feature6": "Bludit 注重隐私，不跟踪访问者。",
+
+	"bludit-documentation": "阅读文档了解需求、安装指南和更多内容。",
+	"bludit-support": "需要帮助？请到论坛或 GitHub Issues 联系我们。",
+	"bludit-pro": "Bludit PRO",
+	"github-issues": "GitHub Issues"
+}

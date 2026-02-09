@@ -1,0 +1,42 @@
+{
+	"demo": "立即體驗",
+	"documentation": "文件",
+	"themes": "佈景主題",
+	"plugins": "延伸模組",
+	"donations": "贊助",
+	"donate": "贊助",
+	"download": "下載",
+	"search": "搜尋",
+	"links": "連結",
+	"support": "支援",
+	"chat": "聊天",
+	"forum": "討論區",
+	"sponsors": "貢獻者",
+	"subscribe": "訂閱",
+	"contribute": "貢獻",
+	"enter-email": "請輸入電子郵件",
+	"newsletter": "電子報",
+	"privacy": "隱私",
+	"terms-and-conditions": "條款和條件",
+
+	"head-title": "Bludit - Flat-File CMS",
+	"head-description": "Bludit 是一個能讓您在短短幾秒之內建置屬於自己的網站或部落格的網頁應用程式，他是完全免費與開源、並支援Markdown。",
+
+	"flat-file": "平面檔",
+	"seo-friendly": "SEO友好",
+	"markdown-support": "支援Markdown",
+	"gdpr-compliant": "符合GDPR",
+
+	"bludit-slogan1": "在幾秒內建立屬於自己的 <b>網站</b> 或是 <b>Blog</b>",
+	"bludit-slogan2": "簡單、快速、安全 Flat-File CMS",
+
+	"bludit-feature1": "Bludit使用一般JSON格式的純文字檔案來儲存內容，您將不需要安裝或設定任何資料庫。",
+	"bludit-feature2": "使用Bludit提供漂亮且酷炫的佈景主題來裝飾您的網站。您可以<a href=\"https://themes.bludit.com\" target=\"_blank\">在此</a>下載佈景主題。",
+	"bludit-feature3": "透過神奇的延伸模組來擴充Bludit的功能。 您可以<a href=\"https://plugins.bludit.com\" target=\"_blank\">在此</a>下載延伸模組。",
+	"bludit-feature4": "Bludit集所有SEO工具於一身，來幫忙您提高在搜尋引擎和社群媒體中的排名。",
+	"bludit-feature5": "Bludit可以在內容中使用Markdown與HTML語法，當然也提供Markdown與WYSIWYG編輯器。",
+	"bludit-feature6": "Bludit非常注重使用者的安全與隱私。 Bludit絕對不會使用其他外部函式庫、框架與其他資源。",
+
+	"bludit-documentation": "Read our documentation for requirements, installation guide, how to's and more.",
+	"bludit-support": "您需要幫忙？快到我們的討論區、聊天室或是Github issues吧!"
+}

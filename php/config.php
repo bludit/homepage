@@ -56,12 +56,43 @@ foreach ($tmpLanguages as $lang) {
 	$_hreflang[$lang] = rtrim(DOMAIN,'/').'/'.$lang.'/';
 }
 
-// Version
-if (file_exists('/www/version.bludit.com/index.php')) {
-        include('/www/version.bludit.com/index.php');
-} else {
+// Version from GitHub releases (cached for 24 hours)
+$version = array('stable' => array());
+$cacheFile = PATH_ROOT.'php'.DS.'github-version-cache.json';
+$cacheTTL = 86400; // 24 hours
+
+if (file_exists($cacheFile) && (time() - filemtime($cacheFile)) < $cacheTTL) {
+	$cached = json_decode(file_get_contents($cacheFile), true);
+	if (isset($cached['version'])) {
+		$version['stable']['version'] = $cached['version'];
+		$version['stable']['downloadLink'] = $cached['downloadLink'];
+	}
+}
+
+if (empty($version['stable']['version'])) {
+	$githubRelease = @file_get_contents(
+		'https://api.github.com/repos/bludit/bludit/releases/latest',
+		false,
+		stream_context_create(array('http' => array(
+			'header' => "User-Agent: Bludit-Homepage\r\n",
+			'timeout' => 5
+		)))
+	);
+	if ($githubRelease) {
+		$release = json_decode($githubRelease, true);
+		if (isset($release['tag_name'])) {
+			$version['stable']['version'] = $release['tag_name'];
+			$version['stable']['downloadLink'] = "https://github.com/bludit/bludit/archive/refs/tags/".$release['tag_name'].".zip";
+			@file_put_contents($cacheFile, json_encode(array(
+				'version' => $version['stable']['version'],
+				'downloadLink' => $version['stable']['downloadLink']
+			)));
+		}
+	}
+}
+
+// Fallback if GitHub API is unreachable and no cache
+if (empty($version['stable']['version'])) {
 	$version['stable']['version'] = VERSION;
-	$version['stable']['downloadLink'] = "https://s3.amazonaws.com/bludit-s3/bludit-builds/bludit-v".VERSION.".zip";
-	$version['beta']['changelogLink'] = 's';
-	$version['beta']['version'] = '2.0 Beta 1';
+	$version['stable']['downloadLink'] = "https://github.com/bludit/bludit/archive/refs/tags/".VERSION.".zip";
 }

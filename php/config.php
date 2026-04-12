@@ -70,14 +70,27 @@ if (file_exists($cacheFile) && (time() - filemtime($cacheFile)) < $cacheTTL) {
 }
 
 if (empty($version['stable']['version'])) {
-	$githubRelease = @file_get_contents(
-		'https://api.github.com/repos/bludit/bludit/releases/latest',
-		false,
-		stream_context_create(array('http' => array(
-			'header' => "User-Agent: Bludit-Homepage\r\n",
-			'timeout' => 5
-		)))
-	);
+	$githubRelease = false;
+	if (function_exists('curl_init')) {
+		$ch = curl_init('https://api.github.com/repos/bludit/bludit/releases/latest');
+		curl_setopt_array($ch, array(
+			CURLOPT_RETURNTRANSFER => true,
+			CURLOPT_USERAGENT     => 'Bludit-Homepage',
+			CURLOPT_TIMEOUT       => 5,
+			CURLOPT_FOLLOWLOCATION => true,
+		));
+		$githubRelease = curl_exec($ch);
+		curl_close($ch);
+	} elseif (ini_get('allow_url_fopen')) {
+		$githubRelease = @file_get_contents(
+			'https://api.github.com/repos/bludit/bludit/releases/latest',
+			false,
+			stream_context_create(array('http' => array(
+				'header' => "User-Agent: Bludit-Homepage\r\n",
+				'timeout' => 5
+			)))
+		);
+	}
 	if ($githubRelease) {
 		$release = json_decode($githubRelease, true);
 		if (isset($release['tag_name'])) {

@@ -1,0 +1,42 @@
+{
+	"demo": "Demo",
+	"documentation": "Belgeler",
+	"themes": "Temalar",
+	"plugins": "Eklentiler",
+	"donations": "Bağışp",
+	"donate": "Bağış yap",
+	"download": "İndir",
+	"search": "Ara",
+	"links": "Bağlantılar",
+	"support": "Destek",
+	"chat": "Sohbet",
+	"forum": "Forum",
+	"sponsors": "Sponsorlar",
+	"subscribe": "Abone ol",
+	"contribute": "Katkıda bulun",
+	"enter-email": "E-posta girin",
+	"newsletter": "Bülten",
+	"privacy": "Gizlilik",
+	"terms-and-conditions": "Şartlar ve koşullar",
+
+	"head-title": "Bludit - Düz dosya CMS",
+	"head-description": "Bludit, kendi web sitenizi veya blogunuzu saniyeler içinde oluşturmak için bir web uygulaması. Tamamen ücretsiz ve açık kaynaklı. Markdown desteğine sahip.",
+
+	"flat-file": "Düz dosya",
+	"seo-friendly": "SEO dostu",
+	"markdown-support": "Markdown desteği",
+	"gdpr-compliant": "GDPR uyumlu",
+
+	"bludit-slogan1": "Saniyeler içinde <b>Web sitenizi</b> ya da <b>Blog'unuzu</b> oluşturun",
+	"bludit-slogan2": "Basit, Hızlı, Güvenli, Düz dosya CMS",
+
+	"bludit-feature1": "Bludit, içeriği depolamak için JSON formatında dosyaları kullanır, bir veritabanını yüklemenize veya yapılandırmanıza gerek yoktur.",
+	"bludit-feature2": "Bludit destekli sitenizi güzel ve hoş temalarla özelleştirin. Temaları <a href=\"https://themes.bludit.com\" target=\"_blank\">resmi siteden</a> indirebilirsiniz.",
+	"bludit-feature3": "Harika eklentilerle Bludit'in işlevselliğini artırın. Eklentileri from the <a href=\"https://plugins.bludit.com\" target=\"_blank\">resmi siteden</a> indirebilirsiniz.",
+	"bludit-feature4": "Bludit, tüm arama motorları ve sosyal ağlarda sıralamanızı geliştirmek için gereken tüm SEO araçlarını içerir.",
+	"bludit-feature5": "Bludit, içerik için Markdown ve HTML kodunu destekler, ayrıca Markdown Editor ve WYSIWYG Editor'ü de sağlar.",
+	"bludit-feature6": "Bludit, kullanıcıların güvenliğini ve gizliliğini sağlar. Bludit harici kaynakları takip etmez ya da kullanmaz.",
+
+	"bludit-documentation": "Gereksinimler, kurulum kılavuzu, nasıl yapılır ve daha fazlası için belgelerimizi okuyun.",
+	"bludit-support": "Desteğe mi ihtiyacınız var? Forum, sohbet veya Github sorunlardan bize ulaşın."
+}
